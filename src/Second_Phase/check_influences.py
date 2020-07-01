@@ -3,47 +3,8 @@ import urllib.request
 import urllib.parse
 from bs4 import BeautifulSoup
 
-import pprint
-def bio_table(page):
-    # open url with bs
-    file = open(page)
-    page = file.read()
-    file.close()
-    soup = BeautifulSoup(page, "html.parser")
-    # get biography table
-    table = soup.find('table', class_='infobox biography vcard')
-    #print(len(table.find_all('ul', class_='NavContent')))
-    try:
-        # get influencers unordered list
-        influencers = table.find_all('ul', class_='NavContent')[0]
-    except:
-        influencers = []
-    try:
-        # get influenced unordered list
-        influenced = table.find_all('ul', class_='NavContent')[1]
-    except:
-        influenced = []
-    #print(influenced)
-    final_influencers = []
-    final_influenced = []
-    # We want a list of titles of wikipedia pages
-    if influencers != []:
-        for a in influencers.find_all('a'):
-            try:
-                # extract the title
-                final_influencers.append(a.get('title'))
-            except:
-                pass
-    # We want a list of titles of wikipedia pages
-    if influenced != []:
-        for a in influenced.find_all('a'):
-            try:
-                # extract the title
-                final_influenced.append(a.get('title'))
-            except:
-                pass
 
-    return final_influencers,final_influenced
+
 
 class Check_Influences(object):
 	def __init__(self):
@@ -51,6 +12,47 @@ class Check_Influences(object):
 		self.json_name_link = '../../files/name_links.json'
 		self.good_json_file_name = '../../files/good_name_links.json'
 		self.wiki_base_url = 'https://en.wikipedia.org'
+
+	def bio_table(self, page):
+	    # open url with bs
+	    name = page.rsplit('/')[-1]
+	    file = open(page)
+	    page = file.read()
+	    file.close()
+	    soup = BeautifulSoup(page, "html.parser")
+	    # get biography table
+	    table = soup.find('table', class_='infobox biography vcard')
+	    #print(len(table.find_all('ul', class_='NavContent')))
+	    try:
+	        # get influencers unordered list
+	        influencers = table.find_all('ul', class_='NavContent')[0]
+	    except:
+	        influencers = []
+	    try:
+	        # get influenced unordered list
+	        influenced = table.find_all('ul', class_='NavContent')[1]
+	    except:
+	        influenced = []
+	    #print(influenced)
+	    final_influencers = []
+	    final_influenced = []
+	    # We want a list of titles of wikipedia pages
+	    if influencers != []:
+	        for a in influencers.find_all('a'):
+	            try:
+	                # extract the title
+	                final_influencers.append(a.get('title'))
+	            except:
+	                pass
+	    # We want a list of titles of wikipedia pages
+	    if influenced != []:
+	        for a in influenced.find_all('a'):
+	            try:
+	                # extract the title
+	                final_influenced.append(a.get('title'))
+	            except:
+	                pass
+	    return name, final_influencers,final_influenced
 
 	def get_all_files(self):
 		return os.listdir(self.folder_data_name)
@@ -123,7 +125,7 @@ class Check_Influences(object):
 						influenzati = re.findall(r'title="(.*?)"', str(el))
 						for inf in influenzati:
 							print(inf + "," + file_name)
-		print(count)
+		#print(count)
 
 	def main(self):
 		all_files = self.get_all_files()
@@ -133,9 +135,9 @@ class Check_Influences(object):
 		self.make_good_cs(good_cs)
 		good_cs_filenames = self.get_good_cs_files()
 		
-		self.check_influences(good_cs_filenames)
-		# for i in good_cs_filenames:
-		# 	print(bio_table(i))
+		#self.check_influences(good_cs_filenames)
+		for i in good_cs_filenames:
+			print(self.bio_table(i))
 		
 
 
