@@ -1,0 +1,1798 @@
+{
+    "name_links": [
+        {
+            "Wil_van_der_Aalst": "https://en.wikipedia.org/wiki/Wil_van_der_Aalst"
+        },
+        {
+            "Scott_Aaronson": "https://en.wikipedia.org/wiki/Scott_Aaronson"
+        },
+        {
+            "Hal_Abelson": "https://en.wikipedia.org/wiki/Hal_Abelson"
+        },
+        {
+            "Serge_Abiteboul": "https://en.wikipedia.org/wiki/Serge_Abiteboul"
+        },
+        {
+            "Samson_Abramsky": "https://en.wikipedia.org/wiki/Samson_Abramsky"
+        },
+        {
+            "Leonard_Adleman": "https://en.wikipedia.org/wiki/Leonard_Adleman"
+        },
+        {
+            "Manindra_Agrawal": "https://en.wikipedia.org/wiki/Manindra_Agrawal"
+        },
+        {
+            "Luis_von_Ahn": "https://en.wikipedia.org/wiki/Luis_von_Ahn"
+        },
+        {
+            "Alfred_Aho": "https://en.wikipedia.org/wiki/Alfred_Aho"
+        },
+        {
+            "Frances_E._Allen": "https://en.wikipedia.org/wiki/Frances_E._Allen"
+        },
+        {
+            "Gene_Amdahl": "https://en.wikipedia.org/wiki/Gene_Amdahl"
+        },
+        {
+            "David_P._Anderson": "https://en.wikipedia.org/wiki/David_P._Anderson"
+        },
+        {
+            "Lisa_Anthony": "https://en.wikipedia.org/wiki/Lisa_Anthony"
+        },
+        {
+            "Andrew_Appel": "https://en.wikipedia.org/wiki/Andrew_Appel"
+        },
+        {
+            "Cecilia_R._Aragon": "https://en.wikipedia.org/wiki/Cecilia_R._Aragon"
+        },
+        {
+            "Bruce_Arden": "https://en.wikipedia.org/wiki/Bruce_Arden"
+        },
+        {
+            "Sanjeev_Arora": "https://en.wikipedia.org/wiki/Sanjeev_Arora"
+        },
+        {
+            "Winifred_Asprey": "https://en.wikipedia.org/wiki/Winifred_Asprey"
+        },
+        {
+            "John_Vincent_Atanasoff": "https://en.wikipedia.org/wiki/John_Vincent_Atanasoff"
+        },
+        {
+            "Charles_Babbage": "https://en.wikipedia.org/wiki/Charles_Babbage"
+        },
+        {
+            "Charles_Bachman": "https://en.wikipedia.org/wiki/Charles_Bachman"
+        },
+        {
+            "Roland_Carl_Backhouse": "https://en.wikipedia.org/wiki/Roland_Carl_Backhouse"
+        },
+        {
+            "John_Backus": "https://en.wikipedia.org/wiki/John_Backus"
+        },
+        {
+            "David_F._Bacon": "https://en.wikipedia.org/wiki/David_F._Bacon"
+        },
+        {
+            "David_A._Bader": "https://en.wikipedia.org/wiki/David_A._Bader"
+        },
+        {
+            "Victor_Bahl": "https://en.wikipedia.org/wiki/Victor_Bahl"
+        },
+        {
+            "Anthony_James_Barr": "https://en.wikipedia.org/wiki/Anthony_James_Barr"
+        },
+        {
+            "Jean_Bartik": "https://en.wikipedia.org/wiki/Jean_Bartik"
+        },
+        {
+            "Andrew_Barto": "https://en.wikipedia.org/wiki/Andrew_Barto"
+        },
+        {
+            "Rudolf_Bayer": "https://en.wikipedia.org/wiki/Rudolf_Bayer"
+        },
+        {
+            "Gordon_Bell": "https://en.wikipedia.org/wiki/Gordon_Bell"
+        },
+        {
+            "Steven_M._Bellovin": "https://en.wikipedia.org/wiki/Steven_M._Bellovin"
+        },
+        {
+            "Cecilia_Berdichevsky": "https://en.wikipedia.org/wiki/Cecilia_Berdichevsky"
+        },
+        {
+            "Tim_Berners-Lee": "https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+        },
+        {
+            "Daniel_J._Bernstein": "https://en.wikipedia.org/wiki/Daniel_J._Bernstein"
+        },
+        {
+            "Peter_Bernus": "https://en.wikipedia.org/wiki/Peter_Bernus"
+        },
+        {
+            "Abhay_Bhushan": "https://en.wikipedia.org/wiki/Abhay_Bhushan"
+        },
+        {
+            "Dines_Bj%C3%B8rner": "https://en.wikipedia.org/wiki/Dines_Bj%C3%B8rner"
+        },
+        {
+            "Gerrit_Blaauw": "https://en.wikipedia.org/wiki/Gerrit_Blaauw"
+        },
+        {
+            "Sue_Black_(computer_scientist)": "https://en.wikipedia.org/wiki/Sue_Black_(computer_scientist)"
+        },
+        {
+            "David_Blei": "https://en.wikipedia.org/wiki/David_Blei"
+        },
+        {
+            "Dorothy_Blum": "https://en.wikipedia.org/wiki/Dorothy_Blum"
+        },
+        {
+            "Lenore_Blum": "https://en.wikipedia.org/wiki/Lenore_Blum"
+        },
+        {
+            "Manuel_Blum": "https://en.wikipedia.org/wiki/Manuel_Blum"
+        },
+        {
+            "Barry_Boehm": "https://en.wikipedia.org/wiki/Barry_Boehm"
+        },
+        {
+            "Corrado_B%C3%B6hm": "https://en.wikipedia.org/wiki/Corrado_B%C3%B6hm"
+        },
+        {
+            "Kurt_Bollacker": "https://en.wikipedia.org/wiki/Kurt_Bollacker"
+        },
+        {
+            "Jeff_Bonwick": "https://en.wikipedia.org/wiki/Jeff_Bonwick"
+        },
+        {
+            "Grady_Booch": "https://en.wikipedia.org/wiki/Grady_Booch"
+        },
+        {
+            "George_Boole": "https://en.wikipedia.org/wiki/George_Boole"
+        },
+        {
+            "Andrew_Donald_Booth": "https://en.wikipedia.org/wiki/Andrew_Donald_Booth"
+        },
+        {
+            "Kathleen_Booth": "https://en.wikipedia.org/wiki/Kathleen_Booth"
+        },
+        {
+            "Anita_Borg": "https://en.wikipedia.org/wiki/Anita_Borg"
+        },
+        {
+            "Bert_Bos": "https://en.wikipedia.org/wiki/Bert_Bos"
+        },
+        {
+            "Mikhail_Botvinnik": "https://en.wikipedia.org/wiki/Mikhail_Botvinnik"
+        },
+        {
+            "Jonathan_Bowen": "https://en.wikipedia.org/wiki/Jonathan_Bowen"
+        },
+        {
+            "Stephen_R._Bourne": "https://en.wikipedia.org/wiki/Stephen_R._Bourne"
+        },
+        {
+            "Harry_Bouwman": "https://en.wikipedia.org/wiki/Harry_Bouwman"
+        },
+        {
+            "Robert_S._Boyer": "https://en.wikipedia.org/wiki/Robert_S._Boyer"
+        },
+        {
+            "Karlheinz_Brandenburg": "https://en.wikipedia.org/wiki/Karlheinz_Brandenburg"
+        },
+        {
+            "Jack_E._Bresenham": "https://en.wikipedia.org/wiki/Jack_E._Bresenham"
+        },
+        {
+            "Sergey_Brin": "https://en.wikipedia.org/wiki/Sergey_Brin"
+        },
+        {
+            "David_J._Brown_(computer_scientist)": "https://en.wikipedia.org/wiki/David_J._Brown_(computer_scientist)"
+        },
+        {
+            "Per_Brinch_Hansen": "https://en.wikipedia.org/wiki/Per_Brinch_Hansen"
+        },
+        {
+            "Sjaak_Brinkkemper": "https://en.wikipedia.org/wiki/Sjaak_Brinkkemper"
+        },
+        {
+            "Fred_Brooks": "https://en.wikipedia.org/wiki/Fred_Brooks"
+        },
+        {
+            "Rod_Brooks": "https://en.wikipedia.org/wiki/Rod_Brooks"
+        },
+        {
+            "Michael_Butler_(computer_scientist)": "https://en.wikipedia.org/wiki/Michael_Butler_(computer_scientist)"
+        },
+        {
+            "Tracy_Camp": "https://en.wikipedia.org/wiki/Tracy_Camp"
+        },
+        {
+            "Martin_Campbell-Kelly": "https://en.wikipedia.org/wiki/Martin_Campbell-Kelly"
+        },
+        {
+            "Rosemary_Candlin": "https://en.wikipedia.org/wiki/Rosemary_Candlin"
+        },
+        {
+            "Bryan_Cantrill": "https://en.wikipedia.org/wiki/Bryan_Cantrill"
+        },
+        {
+            "Luca_Cardelli": "https://en.wikipedia.org/wiki/Luca_Cardelli"
+        },
+        {
+            "John_Carmack": "https://en.wikipedia.org/wiki/John_Carmack"
+        },
+        {
+            "Edwin_Catmull": "https://en.wikipedia.org/wiki/Edwin_Catmull"
+        },
+        {
+            "Vint_Cerf": "https://en.wikipedia.org/wiki/Vint_Cerf"
+        },
+        {
+            "Gregory_Chaitin": "https://en.wikipedia.org/wiki/Gregory_Chaitin"
+        },
+        {
+            "Zhou_Chaochen": "https://en.wikipedia.org/wiki/Zhou_Chaochen"
+        },
+        {
+            "Peter_Chen": "https://en.wikipedia.org/wiki/Peter_Chen"
+        },
+        {
+            "Leonardo_Chiariglione": "https://en.wikipedia.org/wiki/Leonardo_Chiariglione"
+        },
+        {
+            "Tracy_Chou": "https://en.wikipedia.org/wiki/Tracy_Chou"
+        },
+        {
+            "Alonzo_Church": "https://en.wikipedia.org/wiki/Alonzo_Church"
+        },
+        {
+            "Alberto_Ciaramella": "https://en.wikipedia.org/wiki/Alberto_Ciaramella"
+        },
+        {
+            "Edmund_M._Clarke": "https://en.wikipedia.org/wiki/Edmund_M._Clarke"
+        },
+        {
+            "John_Cocke": "https://en.wikipedia.org/wiki/John_Cocke"
+        },
+        {
+            "Edgar_F._Codd": "https://en.wikipedia.org/wiki/Edgar_F._Codd"
+        },
+        {
+            "Jacques_Cohen_(computer_scientist)": "https://en.wikipedia.org/wiki/Jacques_Cohen_(computer_scientist)"
+        },
+        {
+            "Simon_Colton": "https://en.wikipedia.org/wiki/Simon_Colton"
+        },
+        {
+            "Alain_Colmerauer": "https://en.wikipedia.org/wiki/Alain_Colmerauer"
+        },
+        {
+            "Paul_Justin_Compton": "https://en.wikipedia.org/wiki/Paul_Justin_Compton"
+        },
+        {
+            "Gordon_Cormack": "https://en.wikipedia.org/wiki/Gordon_Cormack"
+        },
+        {
+            "Stephen_Cook": "https://en.wikipedia.org/wiki/Stephen_Cook"
+        },
+        {
+            "James_Cooley": "https://en.wikipedia.org/wiki/James_Cooley"
+        },
+        {
+            "Danese_Cooper": "https://en.wikipedia.org/wiki/Danese_Cooper"
+        },
+        {
+            "Fernando_J._Corbat%C3%B3": "https://en.wikipedia.org/wiki/Fernando_J._Corbat%C3%B3"
+        },
+        {
+            "Kit_Cosper": "https://en.wikipedia.org/wiki/Kit_Cosper"
+        },
+        {
+            "Patrick_Cousot": "https://en.wikipedia.org/wiki/Patrick_Cousot"
+        },
+        {
+            "Ingemar_Cox": "https://en.wikipedia.org/wiki/Ingemar_Cox"
+        },
+        {
+            "Seymour_Cray": "https://en.wikipedia.org/wiki/Seymour_Cray"
+        },
+        {
+            "Nello_Cristianini": "https://en.wikipedia.org/wiki/Nello_Cristianini"
+        },
+        {
+            "Jon_Crowcroft": "https://en.wikipedia.org/wiki/Jon_Crowcroft"
+        },
+        {
+            "W._Bruce_Croft": "https://en.wikipedia.org/wiki/W._Bruce_Croft"
+        },
+        {
+            "Glen_Culler": "https://en.wikipedia.org/wiki/Glen_Culler"
+        },
+        {
+            "Haskell_Curry": "https://en.wikipedia.org/wiki/Haskell_Curry"
+        },
+        {
+            "Luigi_Dadda": "https://en.wikipedia.org/wiki/Luigi_Dadda"
+        },
+        {
+            "Ole-Johan_Dahl": "https://en.wikipedia.org/wiki/Ole-Johan_Dahl"
+        },
+        {
+            "Ryan_Dahl": "https://en.wikipedia.org/wiki/Ryan_Dahl"
+        },
+        {
+            "Andries_van_Dam": "https://en.wikipedia.org/wiki/Andries_van_Dam"
+        },
+        {
+            "Samir_Das": "https://en.wikipedia.org/wiki/Samir_Das"
+        },
+        {
+            "Neil_Daswani": "https://en.wikipedia.org/wiki/Neil_Daswani"
+        },
+        {
+            "Christopher_J._Date": "https://en.wikipedia.org/wiki/Christopher_J._Date"
+        },
+        {
+            "Jeff_Dean_(computer_scientist)": "https://en.wikipedia.org/wiki/Jeff_Dean_(computer_scientist)"
+        },
+        {
+            "Erik_Demaine": "https://en.wikipedia.org/wiki/Erik_Demaine"
+        },
+        {
+            "Tom_DeMarco": "https://en.wikipedia.org/wiki/Tom_DeMarco"
+        },
+        {
+            "Richard_DeMillo": "https://en.wikipedia.org/wiki/Richard_DeMillo"
+        },
+        {
+            "Dorothy_E._Denning": "https://en.wikipedia.org/wiki/Dorothy_E._Denning"
+        },
+        {
+            "Peter_J._Denning": "https://en.wikipedia.org/wiki/Peter_J._Denning"
+        },
+        {
+            "Michael_Dertouzos": "https://en.wikipedia.org/wiki/Michael_Dertouzos"
+        },
+        {
+            "Alexander_Dewdney": "https://en.wikipedia.org/wiki/Alexander_Dewdney"
+        },
+        {
+            "Vinod_Dham": "https://en.wikipedia.org/wiki/Vinod_Dham"
+        },
+        {
+            "Jan_Dietz": "https://en.wikipedia.org/wiki/Jan_Dietz"
+        },
+        {
+            "Whitfield_Diffie": "https://en.wikipedia.org/wiki/Whitfield_Diffie"
+        },
+        {
+            "Edsger_Dijkstra": "https://en.wikipedia.org/wiki/Edsger_Dijkstra"
+        },
+        {
+            "Matthew_Dillon_(computer_scientist)": "https://en.wikipedia.org/wiki/Matthew_Dillon_(computer_scientist)"
+        },
+        {
+            "Alan_Dix": "https://en.wikipedia.org/wiki/Alan_Dix"
+        },
+        {
+            "Jack_Dongarra": "https://en.wikipedia.org/wiki/Jack_Dongarra"
+        },
+        {
+            "Marco_Dorigo": "https://en.wikipedia.org/wiki/Marco_Dorigo"
+        },
+        {
+            "Paul_Dourish": "https://en.wikipedia.org/wiki/Paul_Dourish"
+        },
+        {
+            "Charles_Stark_Draper": "https://en.wikipedia.org/wiki/Charles_Stark_Draper"
+        },
+        {
+            "Susan_Dumais": "https://en.wikipedia.org/wiki/Susan_Dumais"
+        },
+        {
+            "Jon_Michael_Dunn": "https://en.wikipedia.org/wiki/Jon_Michael_Dunn"
+        },
+        {
+            "Schahram_Dustdar": "https://en.wikipedia.org/wiki/Schahram_Dustdar"
+        },
+        {
+            "Peter_Eades": "https://en.wikipedia.org/wiki/Peter_Eades"
+        },
+        {
+            "Annie_Easley": "https://en.wikipedia.org/wiki/Annie_Easley"
+        },
+        {
+            "Wim_Ebbinkhuijsen": "https://en.wikipedia.org/wiki/Wim_Ebbinkhuijsen"
+        },
+        {
+            "John_Presper_Eckert": "https://en.wikipedia.org/wiki/John_Presper_Eckert"
+        },
+        {
+            "Brendan_Eich": "https://en.wikipedia.org/wiki/Brendan_Eich"
+        },
+        {
+            "Philip_Emeagwali": "https://en.wikipedia.org/wiki/Philip_Emeagwali"
+        },
+        {
+            "E._Allen_Emerson": "https://en.wikipedia.org/wiki/E._Allen_Emerson"
+        },
+        {
+            "Douglas_Engelbart": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        },
+        {
+            "David_Eppstein": "https://en.wikipedia.org/wiki/David_Eppstein"
+        },
+        {
+            "Andrey_Ershov": "https://en.wikipedia.org/wiki/Andrey_Ershov"
+        },
+        {
+            "Philip_Don_Estridge": "https://en.wikipedia.org/wiki/Philip_Don_Estridge"
+        },
+        {
+            "Oren_Etzioni": "https://en.wikipedia.org/wiki/Oren_Etzioni"
+        },
+        {
+            "Christopher_Riche_Evans": "https://en.wikipedia.org/wiki/Christopher_Riche_Evans"
+        },
+        {
+            "David_C._Evans": "https://en.wikipedia.org/wiki/David_C._Evans"
+        },
+        {
+            "Shimon_Even": "https://en.wikipedia.org/wiki/Shimon_Even"
+        },
+        {
+            "Scott_Fahlman": "https://en.wikipedia.org/wiki/Scott_Fahlman"
+        },
+        {
+            "Edward_Feigenbaum": "https://en.wikipedia.org/wiki/Edward_Feigenbaum"
+        },
+        {
+            "Edward_Felten": "https://en.wikipedia.org/wiki/Edward_Felten"
+        },
+        {
+            "Tim_Finin": "https://en.wikipedia.org/wiki/Tim_Finin"
+        },
+        {
+            "Raphael_Finkel": "https://en.wikipedia.org/wiki/Raphael_Finkel"
+        },
+        {
+            "Donald_Firesmith": "https://en.wikipedia.org/wiki/Donald_Firesmith"
+        },
+        {
+            "Gary_William_Flake": "https://en.wikipedia.org/wiki/Gary_William_Flake"
+        },
+        {
+            "Tommy_Flowers": "https://en.wikipedia.org/wiki/Tommy_Flowers"
+        },
+        {
+            "Robert_Floyd": "https://en.wikipedia.org/wiki/Robert_Floyd"
+        },
+        {
+            "Sally_Floyd": "https://en.wikipedia.org/wiki/Sally_Floyd"
+        },
+        {
+            "Lawrence_J._Fogel": "https://en.wikipedia.org/wiki/Lawrence_J._Fogel"
+        },
+        {
+            "James_D._Foley": "https://en.wikipedia.org/wiki/James_D._Foley"
+        },
+        {
+            "Ken_Forbus": "https://en.wikipedia.org/wiki/Ken_Forbus"
+        },
+        {
+            "L._R._Ford,_Jr.": "https://en.wikipedia.org/wiki/L._R._Ford,_Jr."
+        },
+        {
+            "Lance_Fortnow": "https://en.wikipedia.org/wiki/Lance_Fortnow"
+        },
+        {
+            "Martin_Fowler_(software_engineer)": "https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)"
+        },
+        {
+            "Robert_France": "https://en.wikipedia.org/wiki/Robert_France"
+        },
+        {
+            "Herbert_W._Franke": "https://en.wikipedia.org/wiki/Herbert_W._Franke"
+        },
+        {
+            "Edward_Fredkin": "https://en.wikipedia.org/wiki/Edward_Fredkin"
+        },
+        {
+            "Yoav_Freund": "https://en.wikipedia.org/wiki/Yoav_Freund"
+        },
+        {
+            "Daniel_P._Friedman": "https://en.wikipedia.org/wiki/Daniel_P._Friedman"
+        },
+        {
+            "Ping_Fu": "https://en.wikipedia.org/wiki/Ping_Fu"
+        },
+        {
+            "D._R._Fulkerson": "https://en.wikipedia.org/wiki/D._R._Fulkerson"
+        },
+        {
+            "Richard_P._Gabriel": "https://en.wikipedia.org/wiki/Richard_P._Gabriel"
+        },
+        {
+            "Zvi_Galil": "https://en.wikipedia.org/wiki/Zvi_Galil"
+        },
+        {
+            "Bernard_Galler": "https://en.wikipedia.org/wiki/Bernard_Galler"
+        },
+        {
+            "Hector_Garcia-Molina": "https://en.wikipedia.org/wiki/Hector_Garcia-Molina"
+        },
+        {
+            "Michael_Garey": "https://en.wikipedia.org/wiki/Michael_Garey"
+        },
+        {
+            "Hugo_de_Garis": "https://en.wikipedia.org/wiki/Hugo_de_Garis"
+        },
+        {
+            "Bill_Gates": "https://en.wikipedia.org/wiki/Bill_Gates"
+        },
+        {
+            "David_Gelernter": "https://en.wikipedia.org/wiki/David_Gelernter"
+        },
+        {
+            "Lisa_Gelobter": "https://en.wikipedia.org/wiki/Lisa_Gelobter"
+        },
+        {
+            "Charles_Geschke": "https://en.wikipedia.org/wiki/Charles_Geschke"
+        },
+        {
+            "Zoubin_Ghahramani": "https://en.wikipedia.org/wiki/Zoubin_Ghahramani"
+        },
+        {
+            "Sanjay_Ghemawat": "https://en.wikipedia.org/wiki/Sanjay_Ghemawat"
+        },
+        {
+            "Juan_E._Gilbert": "https://en.wikipedia.org/wiki/Juan_E._Gilbert"
+        },
+        {
+            "Lee_Giles": "https://en.wikipedia.org/wiki/Lee_Giles"
+        },
+        {
+            "Seymour_Ginsburg": "https://en.wikipedia.org/wiki/Seymour_Ginsburg"
+        },
+        {
+            "Robert_L._Glass": "https://en.wikipedia.org/wiki/Robert_L._Glass"
+        },
+        {
+            "Kurt_G%C3%B6del": "https://en.wikipedia.org/wiki/Kurt_G%C3%B6del"
+        },
+        {
+            "Joseph_Goguen": "https://en.wikipedia.org/wiki/Joseph_Goguen"
+        },
+        {
+            "E._Mark_Gold": "https://en.wikipedia.org/wiki/E._Mark_Gold"
+        },
+        {
+            "Adele_Goldberg_(computer_scientist)": "https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)"
+        },
+        {
+            "Andrew_V._Goldberg": "https://en.wikipedia.org/wiki/Andrew_V._Goldberg"
+        },
+        {
+            "Ian_Goldberg": "https://en.wikipedia.org/wiki/Ian_Goldberg"
+        },
+        {
+            "Oded_Goldreich": "https://en.wikipedia.org/wiki/Oded_Goldreich"
+        },
+        {
+            "Shafi_Goldwasser": "https://en.wikipedia.org/wiki/Shafi_Goldwasser"
+        },
+        {
+            "Gene_Golub": "https://en.wikipedia.org/wiki/Gene_Golub"
+        },
+        {
+            "Martin_Charles_Golumbic": "https://en.wikipedia.org/wiki/Martin_Charles_Golumbic"
+        },
+        {
+            "Gast%C3%B3n_Gonnet": "https://en.wikipedia.org/wiki/Gast%C3%B3n_Gonnet"
+        },
+        {
+            "Ian_Goodfellow": "https://en.wikipedia.org/wiki/Ian_Goodfellow"
+        },
+        {
+            "James_Gosling": "https://en.wikipedia.org/wiki/James_Gosling"
+        },
+        {
+            "Paul_Graham_(computer_programmer)": "https://en.wikipedia.org/wiki/Paul_Graham_(computer_programmer)"
+        },
+        {
+            "Robert_M._Graham": "https://en.wikipedia.org/wiki/Robert_M._Graham"
+        },
+        {
+            "Susan_L._Graham": "https://en.wikipedia.org/wiki/Susan_L._Graham"
+        },
+        {
+            "Jim_Gray_(computer_scientist)": "https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist)"
+        },
+        {
+            "Sheila_Greibach": "https://en.wikipedia.org/wiki/Sheila_Greibach"
+        },
+        {
+            "Ralph_Griswold": "https://en.wikipedia.org/wiki/Ralph_Griswold"
+        },
+        {
+            "Bill_Gropp": "https://en.wikipedia.org/wiki/Bill_Gropp"
+        },
+        {
+            "Tom_Gruber": "https://en.wikipedia.org/wiki/Tom_Gruber"
+        },
+        {
+            "Shelia_Guberman": "https://en.wikipedia.org/wiki/Shelia_Guberman"
+        },
+        {
+            "Ramanathan_V._Guha": "https://en.wikipedia.org/wiki/Ramanathan_V._Guha"
+        },
+        {
+            "Neil_J._Gunther": "https://en.wikipedia.org/wiki/Neil_J._Gunther"
+        },
+        {
+            "Peter_G._Gyarmati": "https://en.wikipedia.org/wiki/Peter_G._Gyarmati"
+        },
+        {
+            "Philipp_Matth%C3%A4us_Hahn": "https://en.wikipedia.org/wiki/Philipp_Matth%C3%A4us_Hahn"
+        },
+        {
+            "Eldon_C._Hall": "https://en.wikipedia.org/wiki/Eldon_C._Hall"
+        },
+        {
+            "Wendy_Hall": "https://en.wikipedia.org/wiki/Wendy_Hall"
+        },
+        {
+            "Joseph_Halpern": "https://en.wikipedia.org/wiki/Joseph_Halpern"
+        },
+        {
+            "Margaret_Hamilton_(scientist)": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(scientist)"
+        },
+        {
+            "Richard_Hamming": "https://en.wikipedia.org/wiki/Richard_Hamming"
+        },
+        {
+            "Jiawei_Han": "https://en.wikipedia.org/wiki/Jiawei_Han"
+        },
+        {
+            "Frank_Harary": "https://en.wikipedia.org/wiki/Frank_Harary"
+        },
+        {
+            "Juris_Hartmanis": "https://en.wikipedia.org/wiki/Juris_Hartmanis"
+        },
+        {
+            "Johan_H%C3%A5stad": "https://en.wikipedia.org/wiki/Johan_H%C3%A5stad"
+        },
+        {
+            "Les_Hatton": "https://en.wikipedia.org/wiki/Les_Hatton"
+        },
+        {
+            "Igor_Hawryszkiewycz": "https://en.wikipedia.org/wiki/Igor_Hawryszkiewycz"
+        },
+        {
+            "He_Jifeng": "https://en.wikipedia.org/wiki/He_Jifeng"
+        },
+        {
+            "Eric_Hehner": "https://en.wikipedia.org/wiki/Eric_Hehner"
+        },
+        {
+            "Martin_Hellman": "https://en.wikipedia.org/wiki/Martin_Hellman"
+        },
+        {
+            "Gernot_Heiser": "https://en.wikipedia.org/wiki/Gernot_Heiser"
+        },
+        {
+            "James_Hendler": "https://en.wikipedia.org/wiki/James_Hendler"
+        },
+        {
+            "John_L._Hennessy": "https://en.wikipedia.org/wiki/John_L._Hennessy"
+        },
+        {
+            "Andrew_Herbert": "https://en.wikipedia.org/wiki/Andrew_Herbert"
+        },
+        {
+            "Carl_Hewitt": "https://en.wikipedia.org/wiki/Carl_Hewitt"
+        },
+        {
+            "Danny_Hillis": "https://en.wikipedia.org/wiki/Danny_Hillis"
+        },
+        {
+            "Geoffrey_Hinton": "https://en.wikipedia.org/wiki/Geoffrey_Hinton"
+        },
+        {
+            "Julia_Hirschberg": "https://en.wikipedia.org/wiki/Julia_Hirschberg"
+        },
+        {
+            "Tin_Kam_Ho": "https://en.wikipedia.org/wiki/Tin_Kam_Ho"
+        },
+        {
+            "C._A._R._Hoare": "https://en.wikipedia.org/wiki/C._A._R._Hoare"
+        },
+        {
+            "Betty_Holberton": "https://en.wikipedia.org/wiki/Betty_Holberton"
+        },
+        {
+            "John_Henry_Holland": "https://en.wikipedia.org/wiki/John_Henry_Holland"
+        },
+        {
+            "Herman_Hollerith": "https://en.wikipedia.org/wiki/Herman_Hollerith"
+        },
+        {
+            "Gerard_Holzmann": "https://en.wikipedia.org/wiki/Gerard_Holzmann"
+        },
+        {
+            "John_Hopcroft": "https://en.wikipedia.org/wiki/John_Hopcroft"
+        },
+        {
+            "Eric_Horvitz": "https://en.wikipedia.org/wiki/Eric_Horvitz"
+        },
+        {
+            "Alston_Householder": "https://en.wikipedia.org/wiki/Alston_Householder"
+        },
+        {
+            "Paul_Hudak": "https://en.wikipedia.org/wiki/Paul_Hudak"
+        },
+        {
+            "David_A._Huffman": "https://en.wikipedia.org/wiki/David_A._Huffman"
+        },
+        {
+            "John_Hughes_(computer_scientist)": "https://en.wikipedia.org/wiki/John_Hughes_(computer_scientist)"
+        },
+        {
+            "Watts_Humphrey": "https://en.wikipedia.org/wiki/Watts_Humphrey"
+        },
+        {
+            "Jean_Ichbiah": "https://en.wikipedia.org/wiki/Jean_Ichbiah"
+        },
+        {
+            "Dan_Ingalls": "https://en.wikipedia.org/wiki/Dan_Ingalls"
+        },
+        {
+            "Mary_Jane_Irwin": "https://en.wikipedia.org/wiki/Mary_Jane_Irwin"
+        },
+        {
+            "Kenneth_E._Iverson": "https://en.wikipedia.org/wiki/Kenneth_E._Iverson"
+        },
+        {
+            "Ivar_Jacobson": "https://en.wikipedia.org/wiki/Ivar_Jacobson"
+        },
+        {
+            "Anil_K._Jain_(computer_scientist,_born_1948)": "https://en.wikipedia.org/wiki/Anil_K._Jain_(computer_scientist,_born_1948)"
+        },
+        {
+            "Ramesh_Jain": "https://en.wikipedia.org/wiki/Ramesh_Jain"
+        },
+        {
+            "Jonathan_James": "https://en.wikipedia.org/wiki/Jonathan_James"
+        },
+        {
+            "David_S._Johnson": "https://en.wikipedia.org/wiki/David_S._Johnson"
+        },
+        {
+            "Stephen_C._Johnson": "https://en.wikipedia.org/wiki/Stephen_C._Johnson"
+        },
+        {
+            "Cliff_Jones_(computer_scientist)": "https://en.wikipedia.org/wiki/Cliff_Jones_(computer_scientist)"
+        },
+        {
+            "Michael_I._Jordan": "https://en.wikipedia.org/wiki/Michael_I._Jordan"
+        },
+        {
+            "Mathai_Joseph": "https://en.wikipedia.org/wiki/Mathai_Joseph"
+        },
+        {
+            "Aravind_K._Joshi": "https://en.wikipedia.org/wiki/Aravind_K._Joshi"
+        },
+        {
+            "Bill_Joy": "https://en.wikipedia.org/wiki/Bill_Joy"
+        },
+        {
+            "Daniel_Jurafsky": "https://en.wikipedia.org/wiki/Daniel_Jurafsky"
+        },
+        {
+            "William_Kahan": "https://en.wikipedia.org/wiki/William_Kahan"
+        },
+        {
+            "Robert_E._Kahn": "https://en.wikipedia.org/wiki/Robert_E._Kahn"
+        },
+        {
+            "Avinash_Kak": "https://en.wikipedia.org/wiki/Avinash_Kak"
+        },
+        {
+            "Poul-Henning_Kamp": "https://en.wikipedia.org/wiki/Poul-Henning_Kamp"
+        },
+        {
+            "David_Karger": "https://en.wikipedia.org/wiki/David_Karger"
+        },
+        {
+            "Richard_Karp": "https://en.wikipedia.org/wiki/Richard_Karp"
+        },
+        {
+            "Narendra_Karmarkar": "https://en.wikipedia.org/wiki/Narendra_Karmarkar"
+        },
+        {
+            "Marek_Karpinski": "https://en.wikipedia.org/wiki/Marek_Karpinski"
+        },
+        {
+            "Alan_Kay": "https://en.wikipedia.org/wiki/Alan_Kay"
+        },
+        {
+            "Neeraj_Kayal": "https://en.wikipedia.org/wiki/Neeraj_Kayal"
+        },
+        {
+            "John_George_Kemeny": "https://en.wikipedia.org/wiki/John_George_Kemeny"
+        },
+        {
+            "Ken_Kennedy_(computer_scientist)": "https://en.wikipedia.org/wiki/Ken_Kennedy_(computer_scientist)"
+        },
+        {
+            "Brian_Kernighan": "https://en.wikipedia.org/wiki/Brian_Kernighan"
+        },
+        {
+            "Carl_Kesselman": "https://en.wikipedia.org/wiki/Carl_Kesselman"
+        },
+        {
+            "Gregor_Kiczales": "https://en.wikipedia.org/wiki/Gregor_Kiczales"
+        },
+        {
+            "Peter_T._Kirstein": "https://en.wikipedia.org/wiki/Peter_T._Kirstein"
+        },
+        {
+            "Stephen_Cole_Kleene": "https://en.wikipedia.org/wiki/Stephen_Cole_Kleene"
+        },
+        {
+            "Dan_Klein": "https://en.wikipedia.org/wiki/Dan_Klein"
+        },
+        {
+            "Leonard_Kleinrock": "https://en.wikipedia.org/wiki/Leonard_Kleinrock"
+        },
+        {
+            "Donald_Knuth": "https://en.wikipedia.org/wiki/Donald_Knuth"
+        },
+        {
+            "Andrew_Koenig_(programmer)": "https://en.wikipedia.org/wiki/Andrew_Koenig_(programmer)"
+        },
+        {
+            "Daphne_Koller": "https://en.wikipedia.org/wiki/Daphne_Koller"
+        },
+        {
+            "Michael_K%C3%B6lling": "https://en.wikipedia.org/wiki/Michael_K%C3%B6lling"
+        },
+        {
+            "Andrey_Nikolaevich_Kolmogorov": "https://en.wikipedia.org/wiki/Andrey_Nikolaevich_Kolmogorov"
+        },
+        {
+            "Janet_L._Kolodner": "https://en.wikipedia.org/wiki/Janet_L._Kolodner"
+        },
+        {
+            "David_Korn_(computer_scientist)": "https://en.wikipedia.org/wiki/David_Korn_(computer_scientist)"
+        },
+        {
+            "Cornelis_H._A._Koster": "https://en.wikipedia.org/wiki/Cornelis_H._A._Koster"
+        },
+        {
+            "Robert_Kowalski": "https://en.wikipedia.org/wiki/Robert_Kowalski"
+        },
+        {
+            "John_Koza": "https://en.wikipedia.org/wiki/John_Koza"
+        },
+        {
+            "John_Krogstie": "https://en.wikipedia.org/wiki/John_Krogstie"
+        },
+        {
+            "Joseph_Kruskal": "https://en.wikipedia.org/wiki/Joseph_Kruskal"
+        },
+        {
+            "Thomas_E._Kurtz": "https://en.wikipedia.org/wiki/Thomas_E._Kurtz"
+        },
+        {
+            "Richard_E._Ladner": "https://en.wikipedia.org/wiki/Richard_E._Ladner"
+        },
+        {
+            "Monica_S._Lam": "https://en.wikipedia.org/wiki/Monica_S._Lam"
+        },
+        {
+            "Leslie_Lamport": "https://en.wikipedia.org/wiki/Leslie_Lamport"
+        },
+        {
+            "Butler_W._Lampson": "https://en.wikipedia.org/wiki/Butler_W._Lampson"
+        },
+        {
+            "Peter_J._Landin": "https://en.wikipedia.org/wiki/Peter_J._Landin"
+        },
+        {
+            "Tom_Lane_(computer_scientist)": "https://en.wikipedia.org/wiki/Tom_Lane_(computer_scientist)"
+        },
+        {
+            "B%C3%B6rje_Langefors": "https://en.wikipedia.org/wiki/B%C3%B6rje_Langefors"
+        },
+        {
+            "Chris_Lattner": "https://en.wikipedia.org/wiki/Chris_Lattner"
+        },
+        {
+            "Steve_Lawrence_(computer_scientist)": "https://en.wikipedia.org/wiki/Steve_Lawrence_(computer_scientist)"
+        },
+        {
+            "Edward_D._Lazowska": "https://en.wikipedia.org/wiki/Edward_D._Lazowska"
+        },
+        {
+            "Joshua_Lederberg": "https://en.wikipedia.org/wiki/Joshua_Lederberg"
+        },
+        {
+            "Manny_M_Lehman": "https://en.wikipedia.org/wiki/Manny_M_Lehman"
+        },
+        {
+            "Charles_E._Leiserson": "https://en.wikipedia.org/wiki/Charles_E._Leiserson"
+        },
+        {
+            "Douglas_Lenat": "https://en.wikipedia.org/wiki/Douglas_Lenat"
+        },
+        {
+            "Yann_LeCun": "https://en.wikipedia.org/wiki/Yann_LeCun"
+        },
+        {
+            "Rasmus_Lerdorf": "https://en.wikipedia.org/wiki/Rasmus_Lerdorf"
+        },
+        {
+            "Max_Levchin": "https://en.wikipedia.org/wiki/Max_Levchin"
+        },
+        {
+            "Leonid_Levin": "https://en.wikipedia.org/wiki/Leonid_Levin"
+        },
+        {
+            "Kevin_Leyton-Brown": "https://en.wikipedia.org/wiki/Kevin_Leyton-Brown"
+        },
+        {
+            "J.C.R._Licklider": "https://en.wikipedia.org/wiki/J.C.R._Licklider"
+        },
+        {
+            "David_Liddle": "https://en.wikipedia.org/wiki/David_Liddle"
+        },
+        {
+            "John_Lions": "https://en.wikipedia.org/wiki/John_Lions"
+        },
+        {
+            "Richard_J._Lipton": "https://en.wikipedia.org/wiki/Richard_J._Lipton"
+        },
+        {
+            "Barbara_Liskov": "https://en.wikipedia.org/wiki/Barbara_Liskov"
+        },
+        {
+            "Darrell_Long": "https://en.wikipedia.org/wiki/Darrell_Long"
+        },
+        {
+            "Patricia_D._Lopez": "https://en.wikipedia.org/wiki/Patricia_D._Lopez"
+        },
+        {
+            "Gillian_Lovegrove": "https://en.wikipedia.org/wiki/Gillian_Lovegrove"
+        },
+        {
+            "Ada_Lovelace": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+        },
+        {
+            "Eugene_Luks": "https://en.wikipedia.org/wiki/Eugene_Luks"
+        },
+        {
+            "Nancy_Lynch": "https://en.wikipedia.org/wiki/Nancy_Lynch"
+        },
+        {
+            "Nadia_Magnenat_Thalmann": "https://en.wikipedia.org/wiki/Nadia_Magnenat_Thalmann"
+        },
+        {
+            "Tom_Maibaum": "https://en.wikipedia.org/wiki/Tom_Maibaum"
+        },
+        {
+            "Zohar_Manna": "https://en.wikipedia.org/wiki/Zohar_Manna"
+        },
+        {
+            "James_Martin_(author)": "https://en.wikipedia.org/wiki/James_Martin_(author)"
+        },
+        {
+            "Robert_Cecil_Martin": "https://en.wikipedia.org/wiki/Robert_Cecil_Martin"
+        },
+        {
+            "John_Mashey": "https://en.wikipedia.org/wiki/John_Mashey"
+        },
+        {
+            "Yuri_Matiyasevich": "https://en.wikipedia.org/wiki/Yuri_Matiyasevich"
+        },
+        {
+            "Yukihiro_Matsumoto": "https://en.wikipedia.org/wiki/Yukihiro_Matsumoto"
+        },
+        {
+            "John_Mauchly": "https://en.wikipedia.org/wiki/John_Mauchly"
+        },
+        {
+            "Derek_McAuley": "https://en.wikipedia.org/wiki/Derek_McAuley"
+        },
+        {
+            "John_McCarthy_(computer_scientist)": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
+        },
+        {
+            "Andrew_McCallum": "https://en.wikipedia.org/wiki/Andrew_McCallum"
+        },
+        {
+            "Douglas_McIlroy": "https://en.wikipedia.org/wiki/Douglas_McIlroy"
+        },
+        {
+            "Chris_McKinstry": "https://en.wikipedia.org/wiki/Chris_McKinstry"
+        },
+        {
+            "Marshall_Kirk_McKusick": "https://en.wikipedia.org/wiki/Marshall_Kirk_McKusick"
+        },
+        {
+            "Lambert_Meertens": "https://en.wikipedia.org/wiki/Lambert_Meertens"
+        },
+        {
+            "Bertrand_Meyer": "https://en.wikipedia.org/wiki/Bertrand_Meyer"
+        },
+        {
+            "Silvio_Micali": "https://en.wikipedia.org/wiki/Silvio_Micali"
+        },
+        {
+            "Robin_Milner": "https://en.wikipedia.org/wiki/Robin_Milner"
+        },
+        {
+            "Jack_Minker": "https://en.wikipedia.org/wiki/Jack_Minker"
+        },
+        {
+            "Marvin_Minsky": "https://en.wikipedia.org/wiki/Marvin_Minsky"
+        },
+        {
+            "Tom_M._Mitchell": "https://en.wikipedia.org/wiki/Tom_M._Mitchell"
+        },
+        {
+            "Paul_Mockapetris": "https://en.wikipedia.org/wiki/Paul_Mockapetris"
+        },
+        {
+            "Cleve_Moler": "https://en.wikipedia.org/wiki/Cleve_Moler"
+        },
+        {
+            "John_P._Moon": "https://en.wikipedia.org/wiki/John_P._Moon"
+        },
+        {
+            "Charles_H._Moore": "https://en.wikipedia.org/wiki/Charles_H._Moore"
+        },
+        {
+            "Edward_F._Moore": "https://en.wikipedia.org/wiki/Edward_F._Moore"
+        },
+        {
+            "Gordon_Moore": "https://en.wikipedia.org/wiki/Gordon_Moore"
+        },
+        {
+            "J_Strother_Moore": "https://en.wikipedia.org/wiki/J_Strother_Moore"
+        },
+        {
+            "Hans_Moravec": "https://en.wikipedia.org/wiki/Hans_Moravec"
+        },
+        {
+            "Carroll_Morgan_(computer_scientist)": "https://en.wikipedia.org/wiki/Carroll_Morgan_(computer_scientist)"
+        },
+        {
+            "Robert_Tappan_Morris": "https://en.wikipedia.org/wiki/Robert_Tappan_Morris"
+        },
+        {
+            "Joel_Moses": "https://en.wikipedia.org/wiki/Joel_Moses"
+        },
+        {
+            "Rajeev_Motwani": "https://en.wikipedia.org/wiki/Rajeev_Motwani"
+        },
+        {
+            "Stephen_Muggleton": "https://en.wikipedia.org/wiki/Stephen_Muggleton"
+        },
+        {
+            "Alan_Mycroft": "https://en.wikipedia.org/wiki/Alan_Mycroft"
+        },
+        {
+            "Mihai_Nadin": "https://en.wikipedia.org/wiki/Mihai_Nadin"
+        },
+        {
+            "Makoto_Nagao": "https://en.wikipedia.org/wiki/Makoto_Nagao"
+        },
+        {
+            "Frieder_Nake": "https://en.wikipedia.org/wiki/Frieder_Nake"
+        },
+        {
+            "Bonnie_Nardi": "https://en.wikipedia.org/wiki/Bonnie_Nardi"
+        },
+        {
+            "Peter_Naur": "https://en.wikipedia.org/wiki/Peter_Naur"
+        },
+        {
+            "Roger_Needham": "https://en.wikipedia.org/wiki/Roger_Needham"
+        },
+        {
+            "James_G._Nell": "https://en.wikipedia.org/wiki/James_G._Nell"
+        },
+        {
+            "Bernard_de_Neumann": "https://en.wikipedia.org/wiki/Bernard_de_Neumann"
+        },
+        {
+            "Klara_Dan_von_Neumann": "https://en.wikipedia.org/wiki/Klara_Dan_von_Neumann"
+        },
+        {
+            "John_von_Neumann": "https://en.wikipedia.org/wiki/John_von_Neumann"
+        },
+        {
+            "Allen_Newell": "https://en.wikipedia.org/wiki/Allen_Newell"
+        },
+        {
+            "Max_Newman": "https://en.wikipedia.org/wiki/Max_Newman"
+        },
+        {
+            "Andrew_Ng": "https://en.wikipedia.org/wiki/Andrew_Ng"
+        },
+        {
+            "Nils_Nilsson_(researcher)": "https://en.wikipedia.org/wiki/Nils_Nilsson_(researcher)"
+        },
+        {
+            "G.M._Nijssen": "https://en.wikipedia.org/wiki/G.M._Nijssen"
+        },
+        {
+            "Tobias_Nipkow": "https://en.wikipedia.org/wiki/Tobias_Nipkow"
+        },
+        {
+            "Phiwa_Nkambule": "https://en.wikipedia.org/wiki/Phiwa_Nkambule"
+        },
+        {
+            "Jerre_Noe": "https://en.wikipedia.org/wiki/Jerre_Noe"
+        },
+        {
+            "Peter_Nordin": "https://en.wikipedia.org/wiki/Peter_Nordin"
+        },
+        {
+            "Donald_Norman": "https://en.wikipedia.org/wiki/Donald_Norman"
+        },
+        {
+            "Peter_Norvig": "https://en.wikipedia.org/wiki/Peter_Norvig"
+        },
+        {
+            "George_Novacky": "https://en.wikipedia.org/wiki/George_Novacky"
+        },
+        {
+            "Kristen_Nygaard": "https://en.wikipedia.org/wiki/Kristen_Nygaard"
+        },
+        {
+            "T._William_Olle": "https://en.wikipedia.org/wiki/T._William_Olle"
+        },
+        {
+            "Steve_Omohundro": "https://en.wikipedia.org/wiki/Steve_Omohundro"
+        },
+        {
+            "John_Ousterhout": "https://en.wikipedia.org/wiki/John_Ousterhout"
+        },
+        {
+            "Mark_Overmars": "https://en.wikipedia.org/wiki/Mark_Overmars"
+        },
+        {
+            "Martin_Odersky": "https://en.wikipedia.org/wiki/Martin_Odersky"
+        },
+        {
+            "Severo_Ornstein": "https://en.wikipedia.org/wiki/Severo_Ornstein"
+        },
+        {
+            "John_O%27Sullivan_(engineer)": "https://en.wikipedia.org/wiki/John_O%27Sullivan_(engineer)"
+        },
+        {
+            "Larry_Page": "https://en.wikipedia.org/wiki/Larry_Page"
+        },
+        {
+            "Sankar_Pal": "https://en.wikipedia.org/wiki/Sankar_Pal"
+        },
+        {
+            "Paritosh_Pandya": "https://en.wikipedia.org/wiki/Paritosh_Pandya"
+        },
+        {
+            "Christos_Papadimitriou": "https://en.wikipedia.org/wiki/Christos_Papadimitriou"
+        },
+        {
+            "David_Parnas": "https://en.wikipedia.org/wiki/David_Parnas"
+        },
+        {
+            "DJ_Patil": "https://en.wikipedia.org/wiki/DJ_Patil"
+        },
+        {
+            "Yale_Patt": "https://en.wikipedia.org/wiki/Yale_Patt"
+        },
+        {
+            "David_A._Patterson_(scientist)": "https://en.wikipedia.org/wiki/David_A._Patterson_(scientist)"
+        },
+        {
+            "Mihai_P%C4%83tra%C5%9Fcu": "https://en.wikipedia.org/wiki/Mihai_P%C4%83tra%C5%9Fcu"
+        },
+        {
+            "Lawrence_Paulson": "https://en.wikipedia.org/wiki/Lawrence_Paulson"
+        },
+        {
+            "Randy_Pausch": "https://en.wikipedia.org/wiki/Randy_Pausch"
+        },
+        {
+            "Juan_Pav%C3%B3n": "https://en.wikipedia.org/wiki/Juan_Pav%C3%B3n"
+        },
+        {
+            "Judea_Pearl": "https://en.wikipedia.org/wiki/Judea_Pearl"
+        },
+        {
+            "David_Pearson_(computer_scientist)": "https://en.wikipedia.org/wiki/David_Pearson_(computer_scientist)"
+        },
+        {
+            "Alan_Perlis": "https://en.wikipedia.org/wiki/Alan_Perlis"
+        },
+        {
+            "Radia_Perlman": "https://en.wikipedia.org/wiki/Radia_Perlman"
+        },
+        {
+            "Pier_Giorgio_Perotto": "https://en.wikipedia.org/wiki/Pier_Giorgio_Perotto"
+        },
+        {
+            "R%C3%B3zsa_P%C3%A9ter": "https://en.wikipedia.org/wiki/R%C3%B3zsa_P%C3%A9ter"
+        },
+        {
+            "Simon_Peyton_Jones": "https://en.wikipedia.org/wiki/Simon_Peyton_Jones"
+        },
+        {
+            "Kathy_Pham": "https://en.wikipedia.org/wiki/Kathy_Pham"
+        },
+        {
+            "Roberto_Pieraccini": "https://en.wikipedia.org/wiki/Roberto_Pieraccini"
+        },
+        {
+            "Gordon_Plotkin": "https://en.wikipedia.org/wiki/Gordon_Plotkin"
+        },
+        {
+            "Amir_Pnueli": "https://en.wikipedia.org/wiki/Amir_Pnueli"
+        },
+        {
+            "Willem_van_der_Poel": "https://en.wikipedia.org/wiki/Willem_van_der_Poel"
+        },
+        {
+            "Cicely_Popplewell": "https://en.wikipedia.org/wiki/Cicely_Popplewell"
+        },
+        {
+            "Emil_Post": "https://en.wikipedia.org/wiki/Emil_Post"
+        },
+        {
+            "Jon_Postel": "https://en.wikipedia.org/wiki/Jon_Postel"
+        },
+        {
+            "Franco_Preparata": "https://en.wikipedia.org/wiki/Franco_Preparata"
+        },
+        {
+            "William_H._Press": "https://en.wikipedia.org/wiki/William_H._Press"
+        },
+        {
+            "Rapelang_Rabana": "https://en.wikipedia.org/wiki/Rapelang_Rabana"
+        },
+        {
+            "Roberto_Ierusalimschy": "https://en.wikipedia.org/wiki/Roberto_Ierusalimschy"
+        },
+        {
+            "Michael_O._Rabin": "https://en.wikipedia.org/wiki/Michael_O._Rabin"
+        },
+        {
+            "Dragomir_R._Radev": "https://en.wikipedia.org/wiki/Dragomir_R._Radev"
+        },
+        {
+            "T._V._Raman": "https://en.wikipedia.org/wiki/T._V._Raman"
+        },
+        {
+            "Brian_Randell": "https://en.wikipedia.org/wiki/Brian_Randell"
+        },
+        {
+            "Anders_P._Ravn": "https://en.wikipedia.org/wiki/Anders_P._Ravn"
+        },
+        {
+            "Raj_Reddy": "https://en.wikipedia.org/wiki/Raj_Reddy"
+        },
+        {
+            "David_P._Reed": "https://en.wikipedia.org/wiki/David_P._Reed"
+        },
+        {
+            "Trygve_Reenskaug": "https://en.wikipedia.org/wiki/Trygve_Reenskaug"
+        },
+        {
+            "John_C._Reynolds": "https://en.wikipedia.org/wiki/John_C._Reynolds"
+        },
+        {
+            "Joyce_K._Reynolds": "https://en.wikipedia.org/wiki/Joyce_K._Reynolds"
+        },
+        {
+            "Bernard_Richards": "https://en.wikipedia.org/wiki/Bernard_Richards"
+        },
+        {
+            "Martin_Richards_(computer_scientist)": "https://en.wikipedia.org/wiki/Martin_Richards_(computer_scientist)"
+        },
+        {
+            "Adam_Riese": "https://en.wikipedia.org/wiki/Adam_Riese"
+        },
+        {
+            "C._J._van_Rijsbergen": "https://en.wikipedia.org/wiki/C._J._van_Rijsbergen"
+        },
+        {
+            "Dennis_Ritchie": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+        },
+        {
+            "Ron_Rivest": "https://en.wikipedia.org/wiki/Ron_Rivest"
+        },
+        {
+            "Colette_Rolland": "https://en.wikipedia.org/wiki/Colette_Rolland"
+        },
+        {
+            "John_Romero": "https://en.wikipedia.org/wiki/John_Romero"
+        },
+        {
+            "Azriel_Rosenfeld": "https://en.wikipedia.org/wiki/Azriel_Rosenfeld"
+        },
+        {
+            "Douglas_T._Ross": "https://en.wikipedia.org/wiki/Douglas_T._Ross"
+        },
+        {
+            "Guido_van_Rossum": "https://en.wikipedia.org/wiki/Guido_van_Rossum"
+        },
+        {
+            "Winston_W._Royce": "https://en.wikipedia.org/wiki/Winston_W._Royce"
+        },
+        {
+            "Rudy_Rucker": "https://en.wikipedia.org/wiki/Rudy_Rucker"
+        },
+        {
+            "Steven_Rudich": "https://en.wikipedia.org/wiki/Steven_Rudich"
+        },
+        {
+            "Jeff_Rulifson": "https://en.wikipedia.org/wiki/Jeff_Rulifson"
+        },
+        {
+            "James_Rumbaugh": "https://en.wikipedia.org/wiki/James_Rumbaugh"
+        },
+        {
+            "Peter_Ru%C5%BEi%C4%8Dka": "https://en.wikipedia.org/wiki/Peter_Ru%C5%BEi%C4%8Dka"
+        },
+        {
+            "George_Sadowsky": "https://en.wikipedia.org/wiki/George_Sadowsky"
+        },
+        {
+            "Umar_Saif": "https://en.wikipedia.org/wiki/Umar_Saif"
+        },
+        {
+            "Gerard_Salton": "https://en.wikipedia.org/wiki/Gerard_Salton"
+        },
+        {
+            "Jean_E._Sammet": "https://en.wikipedia.org/wiki/Jean_E._Sammet"
+        },
+        {
+            "Claude_Sammut": "https://en.wikipedia.org/wiki/Claude_Sammut"
+        },
+        {
+            "Carl_Sassenrath": "https://en.wikipedia.org/wiki/Carl_Sassenrath"
+        },
+        {
+            "Mahadev_Satyanarayanan": "https://en.wikipedia.org/wiki/Mahadev_Satyanarayanan"
+        },
+        {
+            "Walter_Savitch": "https://en.wikipedia.org/wiki/Walter_Savitch"
+        },
+        {
+            "Jonathan_Schaeffer": "https://en.wikipedia.org/wiki/Jonathan_Schaeffer"
+        },
+        {
+            "Wilhelm_Schickard": "https://en.wikipedia.org/wiki/Wilhelm_Schickard"
+        },
+        {
+            "Steve_Schneider_(computer_scientist)": "https://en.wikipedia.org/wiki/Steve_Schneider_(computer_scientist)"
+        },
+        {
+            "Bruce_Schneier": "https://en.wikipedia.org/wiki/Bruce_Schneier"
+        },
+        {
+            "Fred_B._Schneider": "https://en.wikipedia.org/wiki/Fred_B._Schneider"
+        },
+        {
+            "Glenda_Schroeder": "https://en.wikipedia.org/wiki/Glenda_Schroeder"
+        },
+        {
+            "Dana_Scott": "https://en.wikipedia.org/wiki/Dana_Scott"
+        },
+        {
+            "Michael_L._Scott": "https://en.wikipedia.org/wiki/Michael_L._Scott"
+        },
+        {
+            "Robert_Sedgewick_(computer_scientist)": "https://en.wikipedia.org/wiki/Robert_Sedgewick_(computer_scientist)"
+        },
+        {
+            "Ravi_Sethi": "https://en.wikipedia.org/wiki/Ravi_Sethi"
+        },
+        {
+            "Nigel_Shadbolt": "https://en.wikipedia.org/wiki/Nigel_Shadbolt"
+        },
+        {
+            "Adi_Shamir": "https://en.wikipedia.org/wiki/Adi_Shamir"
+        },
+        {
+            "Claude_Shannon": "https://en.wikipedia.org/wiki/Claude_Shannon"
+        },
+        {
+            "David_E._Shaw": "https://en.wikipedia.org/wiki/David_E._Shaw"
+        },
+        {
+            "Cliff_Shaw": "https://en.wikipedia.org/wiki/Cliff_Shaw"
+        },
+        {
+            "Scott_Shenker": "https://en.wikipedia.org/wiki/Scott_Shenker"
+        },
+        {
+            "Ben_Shneiderman": "https://en.wikipedia.org/wiki/Ben_Shneiderman"
+        },
+        {
+            "Edward_H._Shortliffe": "https://en.wikipedia.org/wiki/Edward_H._Shortliffe"
+        },
+        {
+            "Joseph_Sifakis": "https://en.wikipedia.org/wiki/Joseph_Sifakis"
+        },
+        {
+            "Herbert_A._Simon": "https://en.wikipedia.org/wiki/Herbert_A._Simon"
+        },
+        {
+            "Munindar_P._Singh": "https://en.wikipedia.org/wiki/Munindar_P._Singh"
+        },
+        {
+            "Ramesh_Sitaraman": "https://en.wikipedia.org/wiki/Ramesh_Sitaraman"
+        },
+        {
+            "Daniel_Sleator": "https://en.wikipedia.org/wiki/Daniel_Sleator"
+        },
+        {
+            "Aaron_Sloman": "https://en.wikipedia.org/wiki/Aaron_Sloman"
+        },
+        {
+            "Arne_S%C3%B8lvberg": "https://en.wikipedia.org/wiki/Arne_S%C3%B8lvberg"
+        },
+        {
+            "Brian_Cantwell_Smith": "https://en.wikipedia.org/wiki/Brian_Cantwell_Smith"
+        },
+        {
+            "Steven_Spewak": "https://en.wikipedia.org/wiki/Steven_Spewak"
+        },
+        {
+            "Carol_Spradling": "https://en.wikipedia.org/wiki/Carol_Spradling"
+        },
+        {
+            "Robert_Sproull": "https://en.wikipedia.org/wiki/Robert_Sproull"
+        },
+        {
+            "Rohini_Kesavan_Srihari": "https://en.wikipedia.org/wiki/Rohini_Kesavan_Srihari"
+        },
+        {
+            "Sargur_Srihari": "https://en.wikipedia.org/wiki/Sargur_Srihari"
+        },
+        {
+            "Maciej_Stachowiak": "https://en.wikipedia.org/wiki/Maciej_Stachowiak"
+        },
+        {
+            "Richard_Stallman": "https://en.wikipedia.org/wiki/Richard_Stallman"
+        },
+        {
+            "Ronald_Stamper": "https://en.wikipedia.org/wiki/Ronald_Stamper"
+        },
+        {
+            "Richard_E._Stearns": "https://en.wikipedia.org/wiki/Richard_E._Stearns"
+        },
+        {
+            "Guy_L._Steele,_Jr.": "https://en.wikipedia.org/wiki/Guy_L._Steele,_Jr."
+        },
+        {
+            "Thomas_Sterling_(computing)": "https://en.wikipedia.org/wiki/Thomas_Sterling_(computing)"
+        },
+        {
+            "W._Richard_Stevens": "https://en.wikipedia.org/wiki/W._Richard_Stevens"
+        },
+        {
+            "Larry_Stockmeyer": "https://en.wikipedia.org/wiki/Larry_Stockmeyer"
+        },
+        {
+            "Salvatore_Stolfo": "https://en.wikipedia.org/wiki/Salvatore_Stolfo"
+        },
+        {
+            "Michael_Stonebraker": "https://en.wikipedia.org/wiki/Michael_Stonebraker"
+        },
+        {
+            "Olaf_Storaasli_(computing)": "https://en.wikipedia.org/wiki/Olaf_Storaasli_(computing)"
+        },
+        {
+            "Christopher_Strachey": "https://en.wikipedia.org/wiki/Christopher_Strachey"
+        },
+        {
+            "Bjarne_Stroustrup": "https://en.wikipedia.org/wiki/Bjarne_Stroustrup"
+        },
+        {
+            "Madhu_Sudan": "https://en.wikipedia.org/wiki/Madhu_Sudan"
+        },
+        {
+            "Gerald_Jay_Sussman": "https://en.wikipedia.org/wiki/Gerald_Jay_Sussman"
+        },
+        {
+            "Bert_Sutherland": "https://en.wikipedia.org/wiki/Bert_Sutherland"
+        },
+        {
+            "Ivan_Sutherland": "https://en.wikipedia.org/wiki/Ivan_Sutherland"
+        },
+        {
+            "Mario_Szegedy": "https://en.wikipedia.org/wiki/Mario_Szegedy"
+        },
+        {
+            "Parisa_Tabriz": "https://en.wikipedia.org/wiki/Parisa_Tabriz"
+        },
+        {
+            "Roberto_Tamassia": "https://en.wikipedia.org/wiki/Roberto_Tamassia"
+        },
+        {
+            "Andrew_S._Tanenbaum": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+        },
+        {
+            "Austin_Tate": "https://en.wikipedia.org/wiki/Austin_Tate"
+        },
+        {
+            "Bernhard_Thalheim": "https://en.wikipedia.org/wiki/Bernhard_Thalheim"
+        },
+        {
+            "%C3%89va_Tardos": "https://en.wikipedia.org/wiki/%C3%89va_Tardos"
+        },
+        {
+            "G%C3%A1bor_Tardos": "https://en.wikipedia.org/wiki/G%C3%A1bor_Tardos"
+        },
+        {
+            "Robert_Tarjan": "https://en.wikipedia.org/wiki/Robert_Tarjan"
+        },
+        {
+            "Valerie_Taylor_(computer_scientist)": "https://en.wikipedia.org/wiki/Valerie_Taylor_(computer_scientist)"
+        },
+        {
+            "Mario_Tchou": "https://en.wikipedia.org/wiki/Mario_Tchou"
+        },
+        {
+            "Jaime_Teevan": "https://en.wikipedia.org/wiki/Jaime_Teevan"
+        },
+        {
+            "Shang-Hua_Teng": "https://en.wikipedia.org/wiki/Shang-Hua_Teng"
+        },
+        {
+            "Larry_Tesler": "https://en.wikipedia.org/wiki/Larry_Tesler"
+        },
+        {
+            "Avie_Tevanian": "https://en.wikipedia.org/wiki/Avie_Tevanian"
+        },
+        {
+            "Charles_P._Thacker": "https://en.wikipedia.org/wiki/Charles_P._Thacker"
+        },
+        {
+            "Daniel_Thalmann": "https://en.wikipedia.org/wiki/Daniel_Thalmann"
+        },
+        {
+            "Ken_Thompson_(computer_programmer)": "https://en.wikipedia.org/wiki/Ken_Thompson_(computer_programmer)"
+        },
+        {
+            "Sebastian_Thrun": "https://en.wikipedia.org/wiki/Sebastian_Thrun"
+        },
+        {
+            "Walter_F._Tichy": "https://en.wikipedia.org/wiki/Walter_F._Tichy"
+        },
+        {
+            "Seinosuke_Toda": "https://en.wikipedia.org/wiki/Seinosuke_Toda"
+        },
+        {
+            "Linus_Torvalds": "https://en.wikipedia.org/wiki/Linus_Torvalds"
+        },
+        {
+            "Godfried_Toussaint": "https://en.wikipedia.org/wiki/Godfried_Toussaint"
+        },
+        {
+            "Gloria_Townsend": "https://en.wikipedia.org/wiki/Gloria_Townsend"
+        },
+        {
+            "Edwin_E._Tozer": "https://en.wikipedia.org/wiki/Edwin_E._Tozer"
+        },
+        {
+            "Joseph_F_Traub": "https://en.wikipedia.org/wiki/Joseph_F_Traub"
+        },
+        {
+            "John_Tukey": "https://en.wikipedia.org/wiki/John_Tukey"
+        },
+        {
+            "Alan_Turing": "https://en.wikipedia.org/wiki/Alan_Turing"
+        },
+        {
+            "Murray_Turoff": "https://en.wikipedia.org/wiki/Murray_Turoff"
+        },
+        {
+            "Jeffrey_D._Ullman": "https://en.wikipedia.org/wiki/Jeffrey_D._Ullman"
+        },
+        {
+            "Umar_Saif": "https://en.wikipedia.org/wiki/Umar_Saif"
+        },
+        {
+            "Leslie_Valiant": "https://en.wikipedia.org/wiki/Leslie_Valiant"
+        },
+        {
+            "Vladimir_Vapnik": "https://en.wikipedia.org/wiki/Vladimir_Vapnik"
+        },
+        {
+            "Moshe_Vardi": "https://en.wikipedia.org/wiki/Moshe_Vardi"
+        },
+        {
+            "Dorothy_Vaughan": "https://en.wikipedia.org/wiki/Dorothy_Vaughan"
+        },
+        {
+            "Umesh_Vazirani": "https://en.wikipedia.org/wiki/Umesh_Vazirani"
+        },
+        {
+            "Manuela_M._Veloso": "https://en.wikipedia.org/wiki/Manuela_M._Veloso"
+        },
+        {
+            "Fran%C3%A7ois_Vernadat": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Vernadat"
+        },
+        {
+            "Richard_Veryard": "https://en.wikipedia.org/wiki/Richard_Veryard"
+        },
+        {
+            "Sergiy_Vilkomir": "https://en.wikipedia.org/wiki/Sergiy_Vilkomir"
+        },
+        {
+            "Paul_Vitanyi": "https://en.wikipedia.org/wiki/Paul_Vitanyi"
+        },
+        {
+            "Andrew_Viterbi": "https://en.wikipedia.org/wiki/Andrew_Viterbi"
+        },
+        {
+            "Jeffrey_Scott_Vitter": "https://en.wikipedia.org/wiki/Jeffrey_Scott_Vitter"
+        },
+        {
+            "Paul_Vixie": "https://en.wikipedia.org/wiki/Paul_Vixie"
+        },
+        {
+            "David_A._Wagner": "https://en.wikipedia.org/wiki/David_A._Wagner"
+        },
+        {
+            "Larry_Wall": "https://en.wikipedia.org/wiki/Larry_Wall"
+        },
+        {
+            "David_Waltz": "https://en.wikipedia.org/wiki/David_Waltz"
+        },
+        {
+            "James_Z._Wang": "https://en.wikipedia.org/wiki/James_Z._Wang"
+        },
+        {
+            "Steve_Ward_(computer_scientist)": "https://en.wikipedia.org/wiki/Steve_Ward_(computer_scientist)"
+        },
+        {
+            "Manfred_K._Warmuth": "https://en.wikipedia.org/wiki/Manfred_K._Warmuth"
+        },
+        {
+            "David_H._D._Warren": "https://en.wikipedia.org/wiki/David_H._D._Warren"
+        },
+        {
+            "Kevin_Warwick": "https://en.wikipedia.org/wiki/Kevin_Warwick"
+        },
+        {
+            "Jan_Weglarz": "https://en.wikipedia.org/wiki/Jan_Weglarz"
+        },
+        {
+            "Peter_Wegner": "https://en.wikipedia.org/wiki/Peter_Wegner"
+        },
+        {
+            "Peter_J._Weinberger": "https://en.wikipedia.org/wiki/Peter_J._Weinberger"
+        },
+        {
+            "Mark_Weiser": "https://en.wikipedia.org/wiki/Mark_Weiser"
+        },
+        {
+            "Joseph_Weizenbaum": "https://en.wikipedia.org/wiki/Joseph_Weizenbaum"
+        },
+        {
+            "David_Wheeler_(computer_scientist)": "https://en.wikipedia.org/wiki/David_Wheeler_(computer_scientist)"
+        },
+        {
+            "Franklin_H._Westervelt": "https://en.wikipedia.org/wiki/Franklin_H._Westervelt"
+        },
+        {
+            "Steve_Whittaker": "https://en.wikipedia.org/wiki/Steve_Whittaker"
+        },
+        {
+            "Jennifer_Widom": "https://en.wikipedia.org/wiki/Jennifer_Widom"
+        },
+        {
+            "Gio_Wiederhold": "https://en.wikipedia.org/wiki/Gio_Wiederhold"
+        },
+        {
+            "Norbert_Wiener": "https://en.wikipedia.org/wiki/Norbert_Wiener"
+        },
+        {
+            "Adriaan_van_Wijngaarden": "https://en.wikipedia.org/wiki/Adriaan_van_Wijngaarden"
+        },
+        {
+            "Mary_Allen_Wilkes": "https://en.wikipedia.org/wiki/Mary_Allen_Wilkes"
+        },
+        {
+            "Maurice_Vincent_Wilkes": "https://en.wikipedia.org/wiki/Maurice_Vincent_Wilkes"
+        },
+        {
+            "Yorick_Wilks": "https://en.wikipedia.org/wiki/Yorick_Wilks"
+        },
+        {
+            "James_H._Wilkinson": "https://en.wikipedia.org/wiki/James_H._Wilkinson"
+        },
+        {
+            "Sophie_Wilson": "https://en.wikipedia.org/wiki/Sophie_Wilson"
+        },
+        {
+            "Shmuel_Winograd": "https://en.wikipedia.org/wiki/Shmuel_Winograd"
+        },
+        {
+            "Terry_Winograd": "https://en.wikipedia.org/wiki/Terry_Winograd"
+        },
+        {
+            "Patrick_Winston": "https://en.wikipedia.org/wiki/Patrick_Winston"
+        },
+        {
+            "Niklaus_Wirth": "https://en.wikipedia.org/wiki/Niklaus_Wirth"
+        },
+        {
+            "Neil_Wiseman": "https://en.wikipedia.org/wiki/Neil_Wiseman"
+        },
+        {
+            "Dennis_E._Wisnosky": "https://en.wikipedia.org/wiki/Dennis_E._Wisnosky"
+        },
+        {
+            "Stephen_Wolfram": "https://en.wikipedia.org/wiki/Stephen_Wolfram"
+        },
+        {
+            "Mike_Woodger": "https://en.wikipedia.org/wiki/Mike_Woodger"
+        },
+        {
+            "Beatrice_Helen_Worsley": "https://en.wikipedia.org/wiki/Beatrice_Helen_Worsley"
+        },
+        {
+            "Steve_Wozniak": "https://en.wikipedia.org/wiki/Steve_Wozniak"
+        },
+        {
+            "Jie_Wu": "https://en.wikipedia.org/wiki/Jie_Wu"
+        },
+        {
+            "William_Wulf": "https://en.wikipedia.org/wiki/William_Wulf"
+        },
+        {
+            "Mihalis_Yannakakis": "https://en.wikipedia.org/wiki/Mihalis_Yannakakis"
+        },
+        {
+            "Andrew_Chi-Chih_Yao": "https://en.wikipedia.org/wiki/Andrew_Chi-Chih_Yao"
+        },
+        {
+            "John_Yen": "https://en.wikipedia.org/wiki/John_Yen"
+        },
+        {
+            "Edward_Yourdon": "https://en.wikipedia.org/wiki/Edward_Yourdon"
+        },
+        {
+            "Moti_Yung": "https://en.wikipedia.org/wiki/Moti_Yung"
+        },
+        {
+            "Lotfi_Zadeh": "https://en.wikipedia.org/wiki/Lotfi_Zadeh"
+        },
+        {
+            "Hans_Zantema": "https://en.wikipedia.org/wiki/Hans_Zantema"
+        },
+        {
+            "Arif_Zaman": "https://en.wikipedia.org/wiki/Arif_Zaman"
+        },
+        {
+            "Hussein_Zedan": "https://en.wikipedia.org/wiki/Hussein_Zedan"
+        },
+        {
+            "Shlomo_Zilberstein": "https://en.wikipedia.org/wiki/Shlomo_Zilberstein"
+        },
+        {
+            "Jill_Zimmerman": "https://en.wikipedia.org/wiki/Jill_Zimmerman"
+        },
+        {
+            "Konrad_Zuse": "https://en.wikipedia.org/wiki/Konrad_Zuse"
+        }
+    ]
+}
