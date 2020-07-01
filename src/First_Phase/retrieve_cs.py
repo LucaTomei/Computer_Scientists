@@ -29,7 +29,6 @@ class RetrieveCS(object):
 
 	def write_json_file(self, lista):
 		content = {"name_links":lista}
-		print(content)
 		file = open(self.json_name_link, 'w')
 		json.dump(content, file, indent = 4)
 		file.close()
@@ -48,6 +47,7 @@ class RetrieveCS(object):
 				print('fetching %s' % url)
 				lista.append({link[6:]:url})
 				urlretrieve(url, self.folder_data_name + '/' + link[6:])
+
 				time.sleep(.6)
 			self.write_json_file(lista)
 		
