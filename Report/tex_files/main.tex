@@ -1,0 +1,152 @@
+\documentclass[12pt, twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{graphicx, subfigure, wrapfig, float}
+\usepackage{amsmath, amssymb, amsfonts, amsthm}
+\usepackage{caption, multicol, multirow, longtable}
+\usepackage{url, cclicenses, lastpage, color, booktabs}
+\usepackage{graphicx,lipsum,wrapfig} 
+
+\usepackage{fancyhdr, fancybox}
+\usepackage{array} 
+\usepackage{vmargin}
+\usepackage{xcolor}
+
+\definecolor{td}{RGB}{170,0,0}
+
+\renewcommand\rmdefault{lmr}
+
+
+%%% My commands
+\newcommand\projectTitle{Computer Scientists Retrieval}
+\newcommand\school{Engineering in Computer Science}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[LE]{\school}
+\fancyhead[RE]{\projectTitle}
+
+
+
+\fancyhead[RO]{Academic Year 2019-2020} \fancyhead[LO]{\school}
+\cfoot{\thepage}
+
+\begin{document}
+\begin{titlepage}
+
+\setmargins{2.5cm}{1cm}{16.5cm}{23.42cm}{10pt}{1cm}{0pt}{1cm}
+
+%encabezado portada
+\begin{figure}[t]
+\begin{minipage}{0.5\textwidth}\large
+\begin{flushleft}
+%%%%	INSERIMENTO IMMAGINE IN ALTO A SINISTRA
+
+%\includegraphics[scale=0.15]{ECI.png}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}\large
+\begin{flushright}
+
+%%%%	INSERIMENTO IMMAGINE IN ALTO A DESTRA
+
+\includegraphics[scale=0.15]{ECI.png}
+\end{flushright}
+\end{minipage}
+\end{figure}
+
+%~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+\title{\textsc{Computer Scientists Retrieval}} 
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\date{}
+\maketitle
+
+\vspace{16pt}
+
+\noindent\begin{tabular}{p{6cm} p{9cm}}
+\textcolor{td}{\rule{4.5cm}{0.04cm}} 
+\par\medskip
+\textbf{WIR Project}
+\par\bigskip
+\textbf{Students:}
+\begin{itemize}
+%~~~~~~~~~~~~~~~~TEAM~~~~~~~~~~~~~~~~~~~~~~
+\item Luca Tomei
+\item Daniele Iacomini
+\item Andrea Aurizi
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\end{itemize}
+\par\medskip
+\textbf{Directed by:}
+\par\bigskip
+%\par\medskip \hspace{0.5cm}
+%~~~~~~~~~~~~~~~~PROFS~~~~~~~~~~~~~~~~~~~~~~
+\textrm{\textit{Andrea Vitaletti}}
+\par\medskip
+\textrm{\textit{Luca Becchetti}}
+
+
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\par\medskip
+\begin{center}
+%~~~~~~~~~~~~~~~~AY~~~~~~~~~~~~~~~~~~~~~~
+\textbf{A.Y. 2019-2020}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\end{center}
+%~~~~~~~~~~~~~~~~~~~~~~~
+\vspace{3cm} 
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\includegraphics[scale=0.4]{logo.png}
+&
+
+\textbf{Summary}	%Write Summary
+\par\medskip
+\lipsum[1] 
+
+\end{tabular}
+\end{titlepage}
+
+\tableofcontents
+$\ $
+
+\newpage
+\section{Introduction}
+\lipsum[1] %eliminare
+\lipsum[2] %eliminare
+
+\newpage
+\section{Theoretical framework}
+\lipsum[1] %eliminare
+\subsection{Subsection (if any)}
+\lipsum %eliminare
+\subsection{Subsection (if any)}
+\lipsum %eliminare
+
+\newpage
+\section{Results}
+\lipsum[1] %eliminare
+\subsection{Subsection (if any)}
+\lipsum %eliminare
+\subsection{Subsection (if any)}
+\lipsum %eliminare
+
+\newpage
+\section{Conclusions}
+\lipsum[5] %eliminare
+\lipsum[1] %eliminare
+
+\newpage
+
+\begin{thebibliography}{X} %My Bibliography
+\bibitem{LOP} LÓPEZ, F. (SF) \textit{Espacios Topoógicos}, Depto. de Geometría y Topología, Universidad de Granada, E-18071 Granada, España
+\bibitem{MACH} MACHO, M. (2002), \textit{¿Qué es la topología?}, Universidad del País Vasco-Euskal Herriko Unibertsitatea.
+\bibitem{O'} O’CONNOR, J., ROBERTSON, E. (1996). \textit{A history of Topology.}
+\end{thebibliography}
+\end{document}
+
+
+
