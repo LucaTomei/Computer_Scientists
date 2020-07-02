@@ -11,6 +11,7 @@ class Page_Rank(object):
 	def __init__(self):
 		self.folder_data_name = '../../files/data'
 		self.file_folder_dir = '../../files/'
+		self.top_20_file = self.file_folder_dir + 'top_20.txt'
 		self.dropbox_data_tar = 'https://www.dropbox.com/s/ut477x665aobz7e/data.tar.gz?dl=0'
 		self.dropbox_headers = {'user-agent': 'Wget/1.16 (linux-gnu)'}
 		self.this_dir = os.getcwd()
@@ -164,6 +165,77 @@ class Page_Rank(object):
 				inlinks[outlink].update(SetOfInLinks)
 		return (inlinks,outlinks)
 
+
+	def tabular_print_pagerank(self, list_of_tuples):
+		new_list = []
+		max_length_column = []
+		element_in_tuple = 2
+
+		for name, value in list_of_tuples:	new_list.append((name, str('%.5f' % value)))
+
+		for i in range(element_in_tuple):	max_length_column.append(max(len(e[i])+6 for e in new_list))
+
+		print("\nTop 20 Page Ranks with 10 iterations")
+		for e in new_list:
+			for i in range(element_in_tuple):	print(e[i].ljust(max_length_column[i]), end='')
+			print()
+
+		print("\nWrite pagerank output in %s" % self.top_20_file)
+		self.write_pagerank_in_file(new_list)
+
+	def write_pagerank_in_file(self, list_of_tuples):
+		file = open(self.top_20_file,'w+')
+		for tupla in list_of_tuples:	file.write(str(tupla) + '\n')
+		file.close()
+
+
+	def draw_graph(self, outlinks):
+		to_write = ""
+		for item in outlinks:
+			if outlinks[item] ==  SortedSet([]):	pass
+			else:
+				for out in outlinks[item]:	to_write += item + ',' + out + '\n'
+
+		temp_file = 'tmp.txt'
+		file = open(temp_file, 'w')
+		file.write(to_write)
+		file.close()
+
+		file = open(temp_file, 'r')
+		import networkx as nx
+		import matplotlib.pyplot as plt
+		import operator
+		from matplotlib import pylab
+
+		G = nx.DiGraph()
+
+		for line in file:
+			l = line.split(",")
+			influenced = l[0].split("\n")[0]
+			cs_ist = l[1].split("\n")[0]
+			G.add_edge(influenced, cs_ist)
+
+		def save_graph(graph,file_name):
+		 	plt.figure(num=None, figsize=(20, 20), dpi=80)
+		 	plt.axis('off')
+		 	fig = plt.figure(1)
+		 	pos = nx.spring_layout(graph)
+		 	nx.draw_networkx_nodes(graph,pos)
+		 	nx.draw_networkx_edges(graph,pos)
+		 	nx.draw_networkx_labels(graph,pos)
+		 	cut = 0
+		 	xmax = cut * max(xx for xx, yy in pos.values())
+		 	ymax = cut * max(yy for xx, yy in pos.values())
+		 	plt.xlim(0, xmax)
+		 	plt.ylim(0, ymax)
+		 	plt.savefig(file_name,bbox_inches="tight")
+		 	pylab.close()
+		 	del fig
+
+		graph_name = self.file_folder_dir + "my_graph.pdf"
+		save_graph(G,graph_name)
+		os.remove(temp_file)
+
 	
 	def main(self):
 		if not os.path.exists(self.folder_data_name):
@@ -175,14 +247,17 @@ class Page_Rank(object):
 
 		print('Before calling read_links')
 		(inlinks, outlinks) = self.read_links(self.folder_data_name)
-
+		print(outlinks)
 		print('Read %d people with a total of %d inlinks' % (len(inlinks), sum(len(v) for v in inlinks.values())))
 		print('Read %d people with a total of %d outlinks' % (len(outlinks), sum(len(v) for v in outlinks.values())))
 
 
 		topn = self.get_top_pageranks(inlinks, outlinks, b=.8, n=20, iters=10)
 
-		print('\nTop page ranks:\n%s' % ('\n'.join('%s\t%.5f' % (u, v) for u, v in topn)))
+		self.tabular_print_pagerank(topn)
+
+		# print("I'm drawing directed graph")
+		# self.draw_graph(outlinks)
 
 		os.chdir(self.this_dir)
 
@@ -190,5 +265,4 @@ class Page_Rank(object):
 
 
 if __name__ == '__main__':
-	Page_Rank_Obj = Page_Rank()
-	Page_Rank_Obj.main()
+	Page_Rank_Obj = Page_Rank().main()
