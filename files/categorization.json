@@ -1,0 +1,562 @@
+{
+    "categorized_cs": [
+        {
+            "Simon_Peyton_Jones": [
+                "Computer science",
+                "Functional programming"
+            ]
+        },
+        {
+            "Murray_Turoff": [
+                "Information",
+                "Computer science, management"
+            ]
+        },
+        {
+            "Jon_Crowcroft": [
+                "Distributed systems",
+                "Quality of service",
+                "Computer networking"
+            ]
+        },
+        {
+            "Andrew_S._Tanenbaum": [
+                "Distributed computing",
+                "Operating systems"
+            ]
+        },
+        {
+            "Randy_Pausch": [
+                "Human-computer interaction",
+                "Computer science"
+            ]
+        },
+        {
+            "Emmy_Noether": [
+                "Mathematics",
+                "Physics"
+            ]
+        },
+        {
+            "Fred_Brooks": [
+                "Computer science",
+                "Software engineering",
+                "Operating systems"
+            ]
+        },
+        {
+            "Neil_J._Gunther": [
+                "Computational information systems (classical and Quantum)"
+            ]
+        },
+        {
+            "Yuri_Matiyasevich": [
+                "Mathematics",
+                "Theoretical computer science"
+            ]
+        },
+        {
+            "Ivan_Sutherland": [
+                "Internet",
+                "Computer graphics",
+                "Computer science"
+            ]
+        },
+        {
+            "Alan_Mycroft": [
+                "Programming languages",
+                "Static analysis",
+                "Compilation"
+            ]
+        },
+        {
+            "Claude_Shannon": [
+                "Mathematics",
+                "Electronic engineering"
+            ]
+        },
+        {
+            "Leonard_Kleinrock": [
+                "Engineering",
+                "Computer science"
+            ]
+        },
+        {
+            "Herbert_A._Simon": [
+                "Computer science",
+                "Economics",
+                "Political science",
+                "Cognitive psychology",
+                "Artificial intelligence"
+            ]
+        },
+        {
+            "Samson_Abramsky": [
+                "Theoretical computer science",
+                "Game theory",
+                "Quantum information"
+            ]
+        },
+        {
+            "John_Henry_Holland": [
+                "Complex systems",
+                "Computer science",
+                "Electrical engineering",
+                "Psychology"
+            ]
+        },
+        {
+            "Tim_Finin": [
+                "Artificial intelligence",
+                "Semantic web",
+                "Natural language processing",
+                "Social media",
+                "Mobile computing"
+            ]
+        },
+        {
+            "Jonathan_Schaeffer": [
+                "Heuristic search",
+                "Artificial intelligence"
+            ]
+        },
+        {
+            "Rohini_Kesavan_Srihari": [
+                "Information extraction",
+                "Computational linguistics",
+                "Information retrieval"
+            ]
+        },
+        {
+            "Stephen_Wolfram": [
+                "Cellular automata",
+                "Mathematics",
+                "Physics",
+                "Computing"
+            ]
+        },
+        {
+            "Adriaan_van_Wijngaarden": [
+                "Numerical mathematics",
+                "Computer science"
+            ]
+        },
+        {
+            "Robert_Kowalski": [
+                "Computer science",
+                "Logic"
+            ]
+        },
+        {
+            "Allen_Newell": [
+                "Computer science",
+                "Cognitive psychology"
+            ]
+        },
+        {
+            "Donald_Knuth": [
+                "Mathematics",
+                "Computer science"
+            ]
+        },
+        {
+            "James_Z._Wang": [
+                "Computer",
+                "Information sciences"
+            ]
+        },
+        {
+            "V._K._Govindan": [
+                "Medical imaging",
+                "Pattern recognition",
+                "Operating system",
+                "Data compression"
+            ]
+        },
+        {
+            "David_Gelernter": [
+                "Computer science",
+                "Parallel computing"
+            ]
+        },
+        {
+            "Donald_Firesmith": [
+                "System engineering",
+                "software engineering",
+                "requirements engineering",
+                "method engineering,",
+                "Object-oriented design"
+            ]
+        },
+        {
+            "Martin_Campbell-Kelly": [
+                "History of computing",
+                "History of science"
+            ]
+        },
+        {
+            "Martin_Hellman": [
+                "Cryptography",
+                "Computer science",
+                "Electrical engineering"
+            ]
+        },
+        {
+            "Konrad_Zuse": [
+                "Computer science",
+                "Computer engineering"
+            ]
+        },
+        {
+            "James_Hendler": [
+                "Artificial intelligence",
+                "Semantic web"
+            ]
+        },
+        {
+            "Stephen_Muggleton": [
+                "Computational logic",
+                "Automation of science",
+                "Relational learning",
+                "Inductive logic programming",
+                "Logic programming"
+            ]
+        },
+        {
+            "Leslie_Valiant": [
+                "Computer science",
+                "Mathematics"
+            ]
+        },
+        {
+            "Sargur_Srihari": [
+                "Computer science",
+                "Computer science",
+                "Engineering",
+                "Machine learning",
+                "Pattern recognition"
+            ]
+        },
+        {
+            "Yorick_Wilks": [
+                "Natural language processing",
+                "Artificial intelligence"
+            ]
+        },
+        {
+            "Peter_Nordin": [
+                "Artificial intelligence",
+                "Evolutionary robotics",
+                "Text mining",
+                "Complex systems"
+            ]
+        },
+        {
+            "Geoffrey_Hinton": [
+                "Artificial intelligence",
+                "Object recognition",
+                "Neural networks",
+                "Cognitive science",
+                "Machine learning"
+            ]
+        },
+        {
+            "Rajeev_Motwani": [
+                "Theoretical computer science",
+                "Computational drug design",
+                "Data privacy",
+                "Web search",
+                "Robotics"
+            ]
+        },
+        {
+            "Dana_Scott": [
+                "Computer science",
+                "Mathematics",
+                "Philosophy"
+            ]
+        },
+        {
+            "Jack_Dongarra": [
+                "Computer science",
+                "Parallel computing",
+                "Computational science"
+            ]
+        },
+        {
+            "Lawrence_Paulson": [
+                "Computer security",
+                "Formal methods",
+                "Theorem proving"
+            ]
+        },
+        {
+            "Silvio_Micali": [
+                "Computer science",
+                "Cryptography"
+            ]
+        },
+        {
+            "Vladimir_Vapnik": [
+                "Machine learning",
+                "Statistics"
+            ]
+        },
+        {
+            "Jaime_Teevan": [
+                "Human-computer interaction",
+                "Computer science",
+                "Information retrieval"
+            ]
+        },
+        {
+            "Donald_Norman": [
+                "Cognitive science",
+                "Usability engineering"
+            ]
+        },
+        {
+            "Serge_Abiteboul": [
+                "Computer science",
+                "Databases"
+            ]
+        },
+        {
+            "Shlomo_Zilberstein": [
+                "Computer science",
+                "Artificial intelligence"
+            ]
+        },
+        {
+            "James_D._Foley": [
+                "Human-computer interaction",
+                "Computer graphics,"
+            ]
+        },
+        {
+            "Haskell_Curry": [
+                "Mathematics",
+                "Logic"
+            ]
+        },
+        {
+            "Sebastian_Thrun": [
+                "Artificial intelligence",
+                "Driverless cars",
+                "Robotics"
+            ]
+        },
+        {
+            "Sheila_Greibach": [
+                "Theoretical computer science",
+                "Automata",
+                "Formal language in computing",
+                "Compiler theory",
+                "Computational complexity"
+            ]
+        },
+        {
+            "Wendy_Hall": [
+                "Hypermedia",
+                "Semantic web",
+                "Web technologies",
+                "Web science",
+                "Digital libraries",
+                "Multimedia"
+            ]
+        },
+        {
+            "Luca_Cardelli": [
+                "Operational semantics",
+                "Type theory"
+            ]
+        },
+        {
+            "Bert_Sutherland": [
+                "Computer science",
+                "Internet",
+                "Electrical engineering",
+                "Management"
+            ]
+        },
+        {
+            "Gregory_Chaitin": [
+                "Mathematics",
+                "Computer science",
+                "Biology"
+            ]
+        },
+        {
+            "Richard_DeMillo": [
+                "Computer security",
+                "software engineering",
+                "Mathematics"
+            ]
+        },
+        {
+            "Douglas_Engelbart": [
+                "Inventor",
+                "Human-computer interaction"
+            ]
+        },
+        {
+            "Marvin_Minsky": [
+                "Cognitive science",
+                "Artificial intelligence",
+                "Computer science",
+                "Philosophy of mind"
+            ]
+        },
+        {
+            "Edward_Feigenbaum": [
+                "Artificial intelligence",
+                "Computer science"
+            ]
+        },
+        {
+            "Edsger_Dijkstra": [
+                "Computing science",
+                "Theoretical computer science"
+            ]
+        },
+        {
+            "David_Karger": [
+                "Human-computer interaction",
+                "Pim",
+                "Information management",
+                "Semantic web"
+            ]
+        },
+        {
+            "William_Kahan": [
+                "Computer science",
+                "Mathematics"
+            ]
+        },
+        {
+            "Kevin_Warwick": [
+                "Artificial intelligence (ai)",
+                "Biomedical engineering",
+                "Bioethics",
+                "Cybernetics",
+                "Cyborgs"
+            ]
+        },
+        {
+            "Norbert_Wiener": [
+                "Mathematics",
+                "Cybernetics"
+            ]
+        },
+        {
+            "Alan_Turing": [
+                "Mathematics",
+                "Cryptanalysis",
+                "Logic",
+                "Computer science",
+                "Theoretical biology"
+            ]
+        },
+        {
+            "Judea_Pearl": [
+                "Computer science",
+                "Statistics"
+            ]
+        },
+        {
+            "Edward_Felten": [
+                "Computer science",
+                "Public affairs"
+            ]
+        },
+        {
+            "Gene_Amdahl": [
+                "Entrepreneur",
+                "Computer science"
+            ]
+        },
+        {
+            "Mark_Overmars": [
+                "Robotics",
+                "Computational geometry"
+            ]
+        },
+        {
+            "Zoubin_Ghahramani": [
+                "Bayesian statistics",
+                "Machine learning"
+            ]
+        },
+        {
+            "Gordon_Moore": [
+                "Entrepreneur",
+                "Electrical engineering"
+            ]
+        },
+        {
+            "Nigel_Shadbolt": [
+                "Semantic web",
+                "Web science",
+                "Artificial intelligence"
+            ]
+        },
+        {
+            "Munindar_P._Singh": [
+                "Computer science",
+                "Multiagent systems",
+                "Artificial intelligence"
+            ]
+        },
+        {
+            "William_H._Press": [
+                "Astrophysics",
+                "Theoretical physics",
+                "Computer science"
+            ]
+        },
+        {
+            "Gordon_Plotkin": [
+                "Mathematics",
+                "Logic",
+                "Computer science"
+            ]
+        },
+        {
+            "Raj_Reddy": [
+                "Human-computer interaction",
+                "Robotics",
+                "Artificial intelligence"
+            ]
+        },
+        {
+            "Danny_Hillis": [
+                "Computer science",
+                "Computer engineering"
+            ]
+        },
+        {
+            "Christos_Papadimitriou": [
+                "Complexity",
+                "Algorithms",
+                "Evolution",
+                "Game theory"
+            ]
+        },
+        {
+            "Alston_Householder": [
+                "Linear algebra",
+                "Numerical analysis"
+            ]
+        },
+        {
+            "Wil_van_der_Aalst": [
+                "Information systems",
+                "workflow management",
+                "petri nets",
+                "process mining",
+                "specification languages",
+                "Simulation."
+            ]
+        }
+    ]
+}

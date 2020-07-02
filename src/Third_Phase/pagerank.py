@@ -11,7 +11,7 @@ class Page_Rank(object):
 	def __init__(self):
 		self.folder_data_name = '../../files/data'
 		self.file_folder_dir = '../../files/'
-		self.top_20_file = self.file_folder_dir + 'top_20.txt'
+		self.top_20_file = self.file_folder_dir + 'my_pagerank_top20.txt'
 		self.dropbox_data_tar = 'https://www.dropbox.com/s/ut477x665aobz7e/data.tar.gz?dl=0'
 		self.dropbox_headers = {'user-agent': 'Wget/1.16 (linux-gnu)'}
 		self.this_dir = os.getcwd()
