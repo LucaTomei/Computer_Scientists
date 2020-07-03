@@ -57,5 +57,4 @@ class RetrieveCS(object):
 
 
 if __name__ == '__main__':
-	RetrieveCS_Obj = RetrieveCS()
-	RetrieveCS_Obj.main()
+	RetrieveCS_Obj = RetrieveCS().main()
