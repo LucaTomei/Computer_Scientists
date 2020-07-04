@@ -207,7 +207,7 @@
 \textrm{\textit{Luca Becchetti}}
 
 \vspace{15pt}
-\href{https://github.com/LucaTomei/Computer_Scrientists}{\underline{Project Repository}}
+\href{https://github.com/LucaTomei/Computer_Scrientists}{\textit{\underline{Project Repository}}}
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \vspace{2cm} 
@@ -247,7 +247,8 @@ $\ $
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%INTRODUCTION%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
-In questo progetto ci siamo soffermati sull'analisi dei dati riguardanti una categoria diversa da quella dei chitarristi: i computer scientists. A differenza di un chitarrista o di un filosofo, un ingegnere informatico non ha molti dati rilevanti su wikipedia e non vi sono nemmeno informazioni riguardanti la sua scuola di pensiero o le influenze avute durante la sua vita. Infatti la prima difficoltà riscontrata durante la fase preliminare del progetto è stata proprio quella di cercare di creare una corrispondenza biunivoca tra due ingegneri informatici, cosa che non sempre è possibile.
+%In questo progetto ci siamo soffermati sull'analisi dei dati riguardanti una categoria diversa da quella dei chitarristi: i computer scientists. A differenza di un chitarrista o di un filosofo, un ingegnere informatico non ha molti dati rilevanti su wikipedia e non vi sono nemmeno informazioni riguardanti la sua scuola di pensiero o le influenze avute durante la sua vita. Infatti la prima difficoltà riscontrata durante la fase preliminare del progetto è stata proprio quella di cercare di creare una corrispondenza biunivoca tra due ingegneri informatici, cosa che non sempre è possibile.
+In this project we focused on the analysis of data concerning a different category from that of guitarists: computer scientists. Unlike a guitarist or a philosopher, a computer engineer does not have much relevant data on wikipedia and there is also no information regarding his school of thought or the influences he had during his life. In fact, the first difficulty encountered during the preliminary phase of the project was precisely to try to create a one-to-one correspondence between two computer scientists, which is not always possible.
 
 \begin{figure*}[htp]
 \begin{minipage}[t]{0.5\linewidth}
@@ -262,13 +263,16 @@ In questo progetto ci siamo soffermati sull'analisi dei dati riguardanti una cat
 \caption{Poet vs Computer Scientist}
 \end{figure*}
 \noindent
-Le precedenti figure mostrano i campi dati presenti sulle tabelle "infobox biography vcard" di WikiPedia. La differenza nel numero di campi tra un filosofo ed un computer scientist è netta ed inoltre quest'ultimo non presenta campi di tipo "Influences" e "Influences" a cui possiamo attingere per creare collegamenti tra un informatico ed un altro.\\
-Pertanto, per ovviare a tale problema, in primo luogo si è deciso di utilizzare \textit{SPARQL} per esplorare ed estrarre le informazioni contenute in grafi RDF da una base di conoscenza distribuita su \textit{DBpedia}.\\
-Successivamente si è deciso di effettuare una ulteriore verifica dei risultati andando ad interrogare direttamente Wikipedia dato che è senza dubbio una delle maggiori risorse del Web per tutte le conoscenze.
-
+%Le precedenti figure mostrano i campi dati presenti sulle tabelle "infobox biography vcard" di WikiPedia. La differenza nel numero di campi tra un filosofo ed un computer scientist è netta ed inoltre quest'ultimo non presenta campi di tipo "Influences" e "Influenced" a cui possiamo attingere per creare collegamenti tra un informatico ed un altro.\\
+The previous figures show the data fields on the WikiPedia "infobox biography vcard" tables. The difference in the number of fields between a philosopher and a computer scientist is clear and the latter also has no "Influences" and "Influenced" type fields that we can draw on to create connections between one computer scientist and another. \\
+%Pertanto, per ovviare a tale problema, in primo luogo si è deciso di utilizzare \textit{SPARQL} per esplorare ed estrarre le informazioni contenute in grafi RDF da una base di conoscenza distribuita su \textit{DBpedia}.\\
+Therefore, to overcome this problem, we first decided to use \textit{SPARQL} to explore and extract the information contained in RDF graphs from a knowledge base distributed on \textit{DBpedia}.\\
+%Successivamente si è deciso di effettuare una ulteriore verifica dei risultati andando ad interrogare direttamente Wikipedia dato che è senza dubbio una delle maggiori risorse del Web per tutte le conoscenze.
+Subsequently it was decided to carry out a further verification of the results by going directly to Wikipedia since it is undoubtedly one of the greatest resources of the Web for all knowledge.
 \newpage
 \section{Query DBpedia with SPARQL}
-Per interrogare DBpedia si è pensato di utilizzare \textit{SPARQLWrapper}, wrapper con lo scopo di a creare l'URI della query e, possibilmente, a convertire il risultato in un formato più gestibile.
+%Per interrogare DBpedia si è pensato di utilizzare \textit{SPARQLWrapper}, wrapper con lo scopo di a creare l'URI della query e, possibilmente, a convertire il risultato in un formato più gestibile.
+To query DBpedia it was decided to use \textit{SPARQLWrapper}, wrapper with the aim of creating the URI of the query and possibly converting the result into a more manageable format.
 \vspace{6pt}
 \begin{lstlisting}[caption={Query DBpedia},captionpos=b,language=iPython]
 """Query DBpedia with SPARQL Code"""
@@ -287,9 +291,10 @@ sparql.setQuery("""
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 \end{lstlisting}
-Con i dati memorizzati in questo modo, la creazione del grafo è semplice: è sufficiente elaborare ogni riga (ognuna è costituita da due voci: influenzato e influenza) e inserire un arco corrispondente nel grafo.\\
-Dopo aver incapsulato l'output della query nella variabile \lstinline[language = iPython]{result} siamo pronti ad esaminare i dati ottenuti e a creare un grafo per calcolare il pagerank.
-
+%Con i dati memorizzati in questo modo, la creazione del grafo è semplice: è sufficiente elaborare ogni riga (ognuna è costituita da due voci: influenzato e influenza) e inserire un arco corrispondente nel grafo.\\
+With the data stored in this way, the creation of the graph is simple: it is sufficient to process each row (each consists of two items: influenced and influence) and insert a corresponding arc in the graph. \\
+%Dopo aver incapsulato l'output della query nella variabile \lstinline[language = iPython]{result} siamo pronti ad esaminare i dati ottenuti e a creare un grafo per calcolare il pagerank.
+After encapsulating the query output in the variable \lstinline[language = iPython]{result} we are ready to examine the data obtained and to create a graph to calculate the pagerank.
 \vspace{6pt}
 
 \begin{lstlisting}[caption={Computing Pagerank},captionpos=b,firstnumber=35,language=iPython]
@@ -316,18 +321,193 @@ for i in sorted_pr:	print(i)
 \newpage
 
 \section{Manual scraping Wikipedia}
-DBpedia offre pochi risultati per i Computer Scientists, motivo per cui si è deciso di intraprendere una strada più impegnativa ma che ci restituisse più risultati: il Web Scarping.\\
-Si è pensato di suddividere tale processo in 4 fasi logiche:
+%DBpedia offre pochi risultati per i Computer Scientists, motivo per cui si è deciso di intraprendere una strada più impegnativa ma che ci restituisse più risultati: il Web Scarping.\\
+DBpedia offers few results for Computer Scientists, which is why it was decided to take a more demanding path but that would give us more results: Web Scarping. \\
+%Si è pensato di suddividere tale processo in 4 fasi logiche:
+%\begin{enumerate}[noitemsep, topsep=1pt]
+%	\item Collezionare in un file tutti i link di computer scientists presenti nella versione inglese di Wikipedia (\textit{\href{https://en.wikipedia.org/wiki/List_of_computer_scientists}{List Of Computer Scientists}}).
+%	\item Per ogni link di un informatico ottenuto dalla fase precedente, si è verificato se la relativa pagina web contenesse una tabella informazioni che includesse la lista di influenze e influenzati di tale informatico. 
+%	\item Dai risultati ottenuti si è calcolato il Pagerank con lo scopo di quantificare l'importanza dell'informatico relativa all'interno dell'insieme di documenti connessi.
+%	\item Si è pensato di soffermarci sulla classificazione dei vari campi di studio di un informatico.
+%\end{enumerate}
+It was decided to divide this process into 4 logical phases:
 \begin{enumerate}[noitemsep, topsep=1pt]
-	\item Collezionare in un file tutti i link di computer scientists presenti nella versione inglese di Wikipedia (\textit{\href{https://en.wikipedia.org/wiki/List_of_computer_scientists}{List Of Computer Scientists}}).
-	\item Per ogni link di un informatico ottenuto dalla fase precedente, si è verificato se la relativa pagina web contenesse una tabella informazioni che includesse la lista di influenze e influenzati di tale informatico.
-	\item Dai risultati ottenuti si è calcolato il Pagerank con lo scopo di quantificare l'importanza dell'informatico relativa all'interno dell'insieme di documenti connessi.
-	\item Si è pensato di soffermarci sulla classificazione dei vari campi di studio di un informatico.
+	\item Collect in a file all the links of computer scientists present in the English version of Wikipedia (\textit{\href{https://en.wikipedia.org/wiki/List_of_computer_scientists}{List Of Computer Scientists}}).
+	\item For each link of a computer scientist obtained from the previous phase, it was checked whether the relative web page contained an information table that included the list of influences and influences of this computer scientist.
+	\item From the results obtained, the Pagerank was calculated with the aim of quantifying the importance of the relative computer scientist within the set of related documents.
+	\item It was decided to dwell on the classification of the various fields of study of a computer scientist.
 \end{enumerate}
 
 \subsection{First Phase: Collect data}
-The English version of Wikipedia contains a list of all the computer scientists (\textit{\href{https://en.wikipedia.org/wiki/List_of_computer_scientists}{link}}) with an existing article, alphabetically sorted. In the first phase, we simply copy each link and its associated name in a .json file.
+The English version of Wikipedia contains a list of all the computer scientists (\textit{\href{https://en.wikipedia.org/wiki/List_of_computer_scientists}{link}}) with an existing article, alphabetically sorted. In the first phase, we simply copy each link and its associated name in a .json file.\\
+The total number of computer scientists retrieved is 509.
 
+\subsection{Second Phase: Check informations in  Biographic Table}
+%Prima di iniziare ad estrapolare le informazioni di ogni informatico, per un questione di ottimizzazione del codice e di efficienza in termini prestazionali si è pensato di rendere offline le intere pagine Wikipedia di ognuno di essi, in modo tale da non effettuare $n\_cs = 509$ richieste.\\
+Before starting to extrapolate the information of each computer scientist, for a matter of code optimization and efficiency in terms of performance it was decided to download the entire Wikipedia pages of each of them, so as not to make $ n\_cs =  509$ requests. \\
+%Dopo aver collezionato le pagine web di ogni informatico, per ognuno di essi si è verificato se la corrispettiva pagina contenesse una tabella informativa  (\textit{Infobox} HTML) che includesse la lista di influences and influencers del suddetto informatico.
+After collecting the web pages of each computer scientist, for each of them it was checked whether the corresponding page contained an information table (\textit{Infobox} HTML) which included the list of influences and influencers of the said computer scientist.
+
+%Il numero di Computer Scientists che soddisfano tale requisito è pari a $62$.
+The number of Computer Scientists who meet this requirement is $ 62 $.
+\begin{lstlisting}[language = iPython, caption={Checking Bio Table Function},captionpos=b]
+def bio_table(self, page):
+    name = page.rsplit('/')[-1]
+    page = open(page, 'r')
+    soup = BeautifulSoup(page, "html.parser")
+    table = soup.find('table', class_='infobox biography vcard')
+    try:	influencers = table.find_all('ul', class_='NavContent')[0]
+    except:	influencers = []
+    try:	influenced = table.find_all('ul', class_='NavContent')[1]
+    except:	influenced = []
+    final_influencers, final_influenced = ([] for i in range(2))
+    if influencers != []:
+        for a in influencers.find_all('a'):
+        	final_influencers.append(a.get('title'))
+    if influenced != []:
+        for a in influenced.find_all('a'):
+        	final_influenced.append(a.get('title'))
+\end{lstlisting}
+
+\newpage
+\subsection{Third Phase: Second Approach and Pagerank}
+%Dato che il risultato ottenuto dalla seconda fase è stato per nulla soddisfacente, si è deciso di utilizzare un secondo approccio: invece di verificare solamente la tabella biografia di un informatico si è analizzata l'intera pagina a lui associata.
+Since the result obtained from the second phase was not at all satisfactory, it was decided to use a second approach: instead of checking only the biography table of a computer scientist, the entire page associated with him was analyzed.
+\vspace{6pt}
+\begin{lstlisting}[language = iPython, caption={Making Links},captionpos=b]
+def make_links(self, path):
+	# Define output dict
+	inlinks = SortedDict() 
+	outlinks = SortedDict()
+
+	SetofNames = SortedSet()
+
+	#reading all the folders from the path and creating a set of CS names
+	for name in self.read_names(path):
+		if name == "Guy_L._Steele,_Jr":	name = "Guy_L._Steele,_Jr."
+
+		SetofNames.add(name)
+
+		#creating an empty inlinks of names as sortedSet
+		inlinks[name] = SortedSet()
+
+	#reading their inlinks and outlinks
+	for name in SetofNames:
+		SetOfInLinks = SortedSet()
+		fp = open(path + "/"+ name,'r',encoding = "utf-8")
+		soup = BeautifulSoup(fp.read(),"html.parser")
+		linksFound = []
+		linksFound = soup.findAll('a', href=re.compile("/wiki/"))
+
+		HTML = ""
+		for link in linksFound:
+			HTML = HTML + str(link)
+			HTML = HTML + " and "
+
+		#get All the outlinks by calling get_links
+		outlinks[name] = self.get_links(SetofNames,HTML)
+
+		if name in outlinks[name]:	outlinks[name].remove(name)
+
+		for outlink in outlinks[name]:
+			SetOfInLinks.add(name)
+			inlinks[outlink].update(SetOfInLinks)
+	return (inlinks,outlinks)
+\end{lstlisting}
+The previous function, after reading the html pages of each computer scientist as input, creates and returns two \textit{SortedDict}:
+\begin{itemize}[noitemsep, topsep=0pt]
+	\item \textit{inlinks}: maps from a name to a SortedSet of names that link to it.
+	\item \textit{outlinks}: maps from a name to a SortedSet of names that it links to.
+\end{itemize}
+For example:
+\begin{itemize}[noitemsep, topsep=0pt]
+	\item \lstinline[language = iPython]{inlinks['Ada_Lovelace'] = SortedSet(['Charles_Babbage', 'David_Gelernter'], key=None, load=1000)}
+	\item \lstinline[language = iPython]{outlinks['Ada_Lovelace'] = SortedSet(['Alan_Turing', 'Charles_Babbage'], key=None, load=1000)}
+\end{itemize}
+To obtain all the \textit{outlinks} we call \lstinline[language = iPython]{self.get_links(SetofNames,HTML)}, which return a SortedSet of computer scientist names that are linked from this html page. The return set is restricted to those people in the provided set of names. The returned list should contain no duplicates. This function take as input:
+\begin{itemize}[noitemsep, topsep=0pt]
+	\item	A SortedSet of computer scientist names, one per filename.
+	\item	A string representing one html page.
+\end{itemize}
+
+\newpage
+
+\begin{lstlisting}[language = iPython, caption={Get Links},captionpos=b]
+def get_links(self, names, html):
+	listofHrefs = []
+	listofHrefTexts = []
+	FinalSortedSet = SortedSet()
+	splice_char = '/'
+
+	for i in range(0,len(listofHrefs)):
+		value = listofHrefs[i][6:]
+		listofHrefTexts.append(value)
+
+	listofHrefTexts = re.findall(r'href="([^"]*)', html)
+
+	for i in listofHrefTexts:
+		value = i[6:]
+		listofHrefs.append(value)
+	listofHrefs = list(set(listofHrefs))
+
+	for href in listofHrefs:
+		for name in names:
+			if(name == "Guy_L._Steele,_Jr"):
+				names.remove(name)
+				names.add("Guy_L._Steele,_Jr.")
+			if(href == name):	FinalSortedSet.add(name)
+
+	return FinalSortedSet
+\end{lstlisting}
+
+\noindent With the results obtained by the function \textit{make\_links} we can calculate the pagerank by calling the function \lstinline[language = iPython]{compute_pagerank}.
+\vspace{6pt}
+\begin{lstlisting}[language = iPython, caption={Computing Pagerank},captionpos=b]
+def compute_pagerank(self, urls, inlinks, outlinks, b=.85, iters=20):
+	rw = defaultdict(lambda:0.0)
+	pageRank = defaultdict(lambda:1.0)
+
+	for outlink in outlinks:	rw[outlink]=len(outlinks[outlink])
+
+	#initialize page ranks scores to 1
+	for url in urls:	pageRank[url] = 1.0
+
+	for i in range(iters):
+		for url in urls:
+			summ = 0.0
+			for link in inlinks[url]:	summ += 1.0 * pageRank[link]/rw[link]
+			pageRank[url] = (1/len(urls))* (1.0-b)+b*summ
+	return SortedDict(dict(pageRank))
+\end{lstlisting}
+This function return a \textit{SortedDict} mapping each url to its final PageRank value (float) by using this formula:
+\begin{equation*}
+	R(u) = \Big(\frac{1}{N}\Big) (1-b) + b \cdot \sum_{w \in B_u} \frac{R(w)}{|F_w|}
+\end{equation*}
+where: \begin{itemize}[noitemsep, topsep=0pt]
+ 	\item $R(u)$ = Pagerank value of the page $ u $ we want to calculate;
+ 	\item $B(u)$ = A set of pages that contain at least one link to the $ u $ page. $ w $ represents each of these pages;
+ 	\item $R(w)$ = PageRank values of each page	 $w$;
+ 	\item $F_w$ = Total number of links contained on the page offering the link;
+ 	\item $b$ = Damping factor. It is generally assumed that it will be set around 0.85.
+ \end{itemize}
+ \newpage
+ 
+ \subsubsection{My Pagerank Results}
+ The following figure shows the terminal output after making the call to \textit{compute\_pagerank} with 20 iterations e 509 computer scientists.
+ \begin{figure*}[htp]
+ 	\centering
+ 	\includegraphics[width = .38\textwidth]{images/top_20_my_pagerank}
+ 	\caption{\textit{compute\_pagerank} output}
+ \end{figure*}
+
+\noindent
+After applying the pagerank, it was decided to build a direct graph that highlighted the connections between each computer scientist. The figure shown below, built with the Python PIL library, shows that there is a thickening in the upper part which highlights the numerous connections that are among the top computer scientists obtained as an output from the \textit{compute\_pagerank} function.
+
+\begin{figure*}[htp]
+\centering
+\includegraphics[width = .69\textwidth]{images/my_graph}
+\caption{Pagerank Graph}
+\end{figure*}
 
 \newpage
 \section{Results}

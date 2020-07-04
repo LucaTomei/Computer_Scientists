@@ -114,7 +114,7 @@ class Page_Rank(object):
 		return FinalSortedSet
 
 	
-	"""	def read_links(self, path)
+	"""	def make_links(self, path)
 		Read the html pages in the data folder. Create and return two SortedDicts:
 			-	inlinks: maps from a name to a SortedSet of names that link to it.
 			-	outlinks: maps from a name to a SortedSet of names that it links to.
@@ -126,7 +126,7 @@ class Page_Rank(object):
 		Returns:
 			A (inlinks, outlinks) tuple(i.e., two SortedDicts)
 	"""
-	def read_links(self, path):
+	def make_links(self, path):
 		# Define output dict
 		inlinks = SortedDict() 
 		outlinks = SortedDict()
@@ -245,8 +245,8 @@ class Page_Rank(object):
 			response_content = response.content
 			self.write_tar_file(response_content)
 
-		print('Before calling read_links')
-		(inlinks, outlinks) = self.read_links(self.folder_data_name)
+		print('Before calling make_links')
+		(inlinks, outlinks) = self.make_links(self.folder_data_name)
 		print(outlinks)
 		print('Read %d people with a total of %d inlinks' % (len(inlinks), sum(len(v) for v in inlinks.values())))
 		print('Read %d people with a total of %d outlinks' % (len(outlinks), sum(len(v) for v in outlinks.values())))
