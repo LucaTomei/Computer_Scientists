@@ -11,7 +11,7 @@
 ('Entrepreneur', 0.006730651965107824)
 ('Statistics', 0.006730651965107824)
 ('Computer engineering', 0.006730651965107824)
-('Computational information systems (classical and Quantum)', 0.006730651965107824)
+('Computational information systems', 0.006730651965107824)
 ('Cognitive science', 0.006576046243182939)
 ('Cryptography', 0.006215299558691543)
 ('Parallel computing', 0.006215299558691543)

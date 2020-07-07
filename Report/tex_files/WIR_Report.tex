@@ -12,6 +12,38 @@
 \usepackage{array} 
 \usepackage{vmargin}
 \usepackage{xcolor}
+\usepackage{listings}
+
+\def\blankpage{%
+      \clearpage%
+      \thispagestyle{empty}%
+      \addtocounter{page}{-1}%
+      \null%
+      \clearpage}
+      
+\let\oldlstlistoflistings\lstlistoflistings
+\renewcommand{\lstlistoflistings}{%
+  \begingroup%
+  \let\oldnumberline\numberline%
+  \renewcommand{\numberline}{\lstlistingname~\oldnumberline}%
+  \oldlstlistoflistings%
+  \endgroup}
+
+
+\usepackage{fancyvrb}
+
+\RecustomVerbatimCommand{\VerbatimInput}{VerbatimInput}%
+{fontsize=\footnotesize,
+ %
+ frame=lines,  % top and bottom rule only
+ framesep=.3em, % separation between frame and text
+ %
+ labelposition=topline,
+ %
+ commandchars=\|\(\), % escape character and argument delimiters for
+                      % commands within the verbatim
+ commentchar=*        % comment character
+}
 
 
 
@@ -27,7 +59,7 @@
 \definecolor{ipython_cyan}{RGB}{64, 128, 128}
 \definecolor{ipython_purple}{RGB}{170, 34, 255}
 
-\usepackage{listings}
+
 \lstset{
     breaklines=true,
     %
@@ -510,28 +542,91 @@ After applying the pagerank, it was decided to build a direct graph that highlig
 \end{figure*}
 
 \newpage
-\section{Results}
-\lipsum[1] %eliminare
-\subsection{Subsection (if any)}
-\lipsum %eliminare
-\subsection{Subsection (if any)}
-\lipsum %eliminare
+
+\section{Categorization}
+%Un'ulteriore esperimento è stato quello di cercare di stilare una classifica delle migliori branche di studio effettuate da tali persone.\\
+A further experiment was to try to draw up a ranking of the best branches of study carried out by these people.\\
+%Nella valutazione dei campi da poter utilizzare, si è verificato che la maggioranza dai computer scientist presenta nella famosa \textit{infobox table} di Wikipedia un campo di nome \textit{Field} che fa proprio al caso nostro: contiene ogni categoria di studio effettuata dalla persona che si sta esaminando.\\
+In evaluating the fields that can be used, it has been verified that the majority of computer scientists present in the famous Wikipedia \textit{infobox table} a field called \textit{Field} which is right for us: it contains every category of study carried out from the person being examined.\\
+%Su un totale di 509 computer scientist, tale campo è presente in circa 480 persone.\\
+Out of a total of 509 computer scientists, this field is present in about 480 people. \\
+%In basso a sinistra viene mostrato il codice utilizzato per estrapolare tale informazione ed in basso a destra una funzione atta a creare un file json che associa il nome di un computer scientist alle categorie di appartenenza.
+In the lower left is shown the code used to extrapolate this information and a function designed to create a json file that associates the name of a computer scientist with the categories to which it belongs.
+
+\noindent\begin{minipage}[t]{.52\linewidth}
+\centering
+\begin{lstlisting}[language = iPython, caption={Get Fields},captionpos=b]
+def get_fields(self, file_name):
+	soup = BeautifulSoup(self.get_html_content(file_name), 'html.parser')
+	infobox = soup.find('table', {'class':'infobox'})
+	fields_list = []
+	if infobox != None:
+		for item in infobox.findAll('tr'):
+			infobox_key = item.find('th')
+			if infobox_key != None and infobox_key.get_text() == 'Fields':
+				infobox_value = item.find('td')
+				fields_list.append(infobox_value.get_text())
+	this_name = self.get_cs_name_from_filename(file_name)
+	return fields_list
+\end{lstlisting}
+
+\end{minipage}\hfill
+\noindent\begin{minipage}[t]{.46\textwidth}
+\centering
+\begin{lstlisting}[language = iPython, caption={Categorization },captionpos=b]
+def compute_categorization(self, all_cs_files_list):
+	to_ret = []
+	none = 0
+	for file_name in all_cs_files_list:
+		cs_name = self.get_cs_name_from_filename(file_name)
+		his_fields = self.clean_fields(self.get_fields(file_name))
+
+		new_fields = []
+		for item in his_fields:	new_fields.append(item.capitalize())
+		if new_fields != []:
+			cs_name = urllib.parse.unquote(cs_name)
+			to_ret.append({cs_name:new_fields})
+		else:
+			none += 1
+	return to_ret
+\end{lstlisting}
+
+\end{minipage}	
+%\noindent Dopo aver ottenuto un file json contenente l'insieme ordinato di categorie associate ad un computer scientist, si è infine stilata una classifica attraverso la computazione dell'algoritmo pagerank e hits.\\
+%Di seguito vengono mostrati i risultati ottenuti dai due algoritmi:
+\noindent After obtaining a json file containing the ordered set of categories associated with a computer scientist, a ranking was finally drawn up through the computation of the pagerank and hits algorithm. \\
+The results obtained by the two algorithms are shown below:
+
+\begin{paracol}{2}
+\VerbatimInput[fontsize=\tiny,label=$hits\_top\_20\_categories.txt$]{../../files/hits_top_20_categories.txt}
+\switchcolumn
+\VerbatimInput[fontsize=\tiny,label=$pagerank\_top\_20\_categories.txt$]{../../files/pagerank_top_20_categories.txt}
+\end{paracol}
+
+
 
 \newpage
-\section{Conclusions}
-\lipsum[5] %eliminare
-\lipsum[1] %eliminare
-
-\newpage
-
+\blankpage
 
 \begin{thebibliography}{X} %My Bibliography
 \bibitem{SPARQLWrapper}	SPARQLWrapper: \href{https://pypi.org/project/SPARQLWrapper/}{https://pypi.org/project/SPARQLWrapper/}
+\bibitem{bs4} bs4 Beautiful Soup: \href{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}{https://www.crummy.com/software/BeautifulSoup/bs4/doc/}
+\bibitem{urllib} urllib: \href{https://docs.python.org/3/library/urllib.html}{https://docs.python.org/3/library/urllib.html}
+\bibitem{requests} requests: \href{https://requests.readthedocs.io/en/master/}{https://requests.readthedocs.io/en/master/}
+\bibitem{re} Regular expression operations (re): \href{https://docs.python.org/3/library/re.html}{https://docs.python.org/3/library/re.html}
+\bibitem{NetworkX} NetworkX: \href{https://networkx.github.io}{https://networkx.github.io}
+\bibitem{Matplotlib} Matplotlib: \href{https://matplotlib.org/users/pyplot\_tutorial.html}{https://matplotlib.org/users/pyplot\_tutorial.html}
+\bibitem{sortedcontainers} Sortedcontainers: \href{http://www.grantjenks.com/docs/sortedcontainers/}{http://www.grantjenks.com/docs/sortedcontainers/}
+\bibitem{Collections} Collections: \href{https://docs.python.org/3/library/collections.html}{https://docs.python.org/3/library/collections.html}
+\bibitem{Glog} Glob: \href{https://docs.python.org/2/library/glob.html}{https://docs.python.org/2/library/glob.html}
+\bibitem{Tarfile} Tarfile: \href{https://docs.python.org/3/library/tarfile.html}{https://docs.python.org/3/library/tarfile.html}
 
-\bibitem{LOP} LÓPEZ, F. (SF) \textit{Espacios Topoógicos}, Depto. de Geometría y Topología, Universidad de Granada, E-18071 Granada, España
-\bibitem{MACH} MACHO, M. (2002), \textit{¿Qué es la topología?}, Universidad del País Vasco-Euskal Herriko Unibertsitatea.
-\bibitem{O'} O’CONNOR, J., ROBERTSON, E. (1996). \textit{A history of Topology.}
 \end{thebibliography}
+
+\newpage
+\listoffigures
+\lstlistoflistings
+
 \end{document}
 
 

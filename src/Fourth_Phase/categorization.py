@@ -62,7 +62,6 @@ class Categorization(object):
 					infobox_value = item.find('td')
 					fields_list.append(infobox_value.get_text())
 		this_name = self.get_cs_name_from_filename(file_name)
-
 		return fields_list
 		
 	def clean_fields(self, fields_list):
@@ -103,12 +102,9 @@ class Categorization(object):
 			for item in his_fields:	new_fields.append(item.capitalize())
 			if new_fields != []:
 				cs_name = urllib.parse.unquote(cs_name)	# from 'Philipp_Matth%C3%A4us_Hahn' ---> 'Philipp_Matthäus_Hahn'
-				#base_sctruct[cs_name] =his_fields
 				to_ret.append({cs_name:new_fields})
 			else:
 				none += 1
-		print(none, "<---- senza fields nella tabella")
-		print(len(to_ret), '<---- quelli con fields')
 		return to_ret
 
 	def write_categorization_json(self, categorization_list, file_name):

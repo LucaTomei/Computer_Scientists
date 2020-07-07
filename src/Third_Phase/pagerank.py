@@ -180,7 +180,7 @@ class Page_Rank(object):
 			for i in range(element_in_tuple):	print(e[i].ljust(max_length_column[i]), end='')
 			print()
 
-		print("\nWrite pagerank output in %s" % self.top_20_file)
+		print("\nWriting pagerank output in %s" % self.top_20_file)
 		self.write_pagerank_in_file(new_list)
 
 	def write_pagerank_in_file(self, list_of_tuples):
