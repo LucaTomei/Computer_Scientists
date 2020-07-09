@@ -5,12 +5,13 @@ Web Information Retrieval Project
 
 ## Table of Contents
 
-- [Getting Started](#Getting-Started)
-- [Built With](#Built-With)
-- [Repository Content](#Built-With)
-- [Running Programs](#Running-Programs)
-- [Authors](#Authors)
-
+<p align="center">
+  • <a href="#Getting-Starte">Getting Started</a> •
+  <a href="#Built-With">Built With</a> •
+  <a href="#Repository-Content">Repository Content</a> •
+  <a href="#Running-Programs">Running Programs</a> •
+  <a href="#Authors">Authors</a> 
+</p>
 
 ## Getting Started
 
