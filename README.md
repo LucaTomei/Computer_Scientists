@@ -9,11 +9,31 @@ The goal of the project is to rank computer scientists based on their influence 
 
 ## Built With
 
-To add python libraries
+* [SPARQLWrapper](https://pypi.org/project/SPARQLWrapper/)
+* [bs4 Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* [urllib](https://docs.python.org/3/library/urllib.html)
+* [requests](https://requests.readthedocs.io/en/master/)
+* [re](https://docs.python.org/3/library/re.html)
+* [NetworkX](https://networkx.github.io)
+* [Matplotlib](https://matplotlib.org/users/pyplot/tutorial.html)
+* [Sortedcontainers](http://www.grantjenks.com/docs/sortedcontainers/)
+* [Collections](https://docs.python.org/3/library/collections.html)
+* [Glob](https://docs.python.org/2/library/glob.html)
+* [Tarfile](https://docs.python.org/3/library/tarfile.html)
+
 
 ## Running the programs
 
-Write how to run 
+```console
+lucasmac@author:~$ cd src
+DBpedia    First_Phase    Fourth_Phase    Second_Phase    Third_Phase    requirements.txt
+```
+
+```console
+lucasmac@author:~$ pip install -r requirements.txt
+```
+
+Now you can run any python file you find in one of the 5 folders.
 
 ## Authors
 
