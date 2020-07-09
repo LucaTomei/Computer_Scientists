@@ -13,6 +13,7 @@
 \usepackage{vmargin}
 \usepackage{xcolor}
 \usepackage{listings}
+\usepackage{url}
 
 \def\blankpage{%
       \clearpage%
@@ -310,43 +311,20 @@ To query DBpedia it was decided to use \textit{SPARQLWrapper}, wrapper with the 
 """Query DBpedia with SPARQL Code"""
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-sparql.setQuery("""
-	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-	SELECT *
-	WHERE {
-		?p a
-		<http://dbpedia.org/ontology/Computer_scientists> .
-		?p <http://dbpedia.org/ontology/influenced> ?influenced.
-	}
-   """)
-sparql.setReturnFormat(JSON)
-results = sparql.query().convert()
+def query_dbpedia(self):    sparql = SPARQLWrapper("http://dbpedia.org/sparql")    sparql.setQuery("""        PREFIX dbo: <http://dbpedia.org/ontology/>        PREFIX foaf: <http://xmlns.com/foaf/0.1/>        PREFIX dct: <http://purl.org/dc/terms/>        PREFIX dbr: <http://dbpedia.org/resource/>        PREFIX dbc: <http://dbpedia.org/resource/Category:>        SELECT distinct ?name  ?person ?subject WHERE {          ?person foaf:name ?name.           ?person dct:subject dbc:Computer_scientists.            ?person dct:subject ?subject.        filter regex(?subject, "http://dbpedia.org/resource/Category:Computer_scientists")        }        ORDER BY ?name    """)    sparql.setReturnFormat(JSON)    results = sparql.query().convert()    return results
 \end{lstlisting}
-%Con i dati memorizzati in questo modo, la creazione del grafo è semplice: è sufficiente elaborare ogni riga (ognuna è costituita da due voci: influenzato e influenza) e inserire un arco corrispondente nel grafo.\\
-With the data stored in this way, the creation of the graph is simple: it is sufficient to process each row (each consists of two items: influenced and influence) and insert a corresponding arc in the graph. \\
 %Dopo aver incapsulato l'output della query nella variabile \lstinline[language = iPython]{result} siamo pronti ad esaminare i dati ottenuti e a creare un grafo per calcolare il pagerank.
-After encapsulating the query output in the variable \lstinline[language = iPython]{result} we are ready to examine the data obtained and to create a graph to calculate the pagerank.
-\vspace{6pt}
+After encapsulating the query output in the variable \lstinline[language = iPython]{result} we are ready to examine the data obtained.\\
+Going to analyze the updated data, we realized that in many cases the same person is registered in multiple repositories but under different URIs. However, only a small part of the possible links between them is available.\\
+Since there is no ontology regarding computer scientists, more links can be discovered by performing automatic coreference resolution, but this task is complicated by two issues:
+\begin{itemize}[noitemsep, topsep=0pt]
+	\item Datasets do not contain overlapping properties for their individuals apart from personal names.
+	\item 	Individuals which belong to overlapping subsets are not distinguished from others: in DBPedia the majority of computer scientists is assigned to a generic class \textit{dbpedia:Person} and not distinguished from other people. As a result, it becomes complicated to extract the subset of computer scientists from DBPedia.
+\end{itemize}
+Individuals in DBPedia are connected by \textit{rdf:type} links to classes defined in the YAGO repository. The YAGO ontology is based on Wikipedia categories and provides a more detailed hierarchy of classes than the DBPedia ontology.\\
+The data returned by the query are not satisfactory, therefore it was decided to take a winding road: the manual scraping of wikipedia pages.
 
-\begin{lstlisting}[caption={Computing Pagerank},captionpos=b,firstnumber=35,language=iPython]
-G = nx.DiGraph()
 
-for result in results["results"]["bindings"]:
-	try:
-		cs = result["p"]["value"].split("/resource/")[1]
-		influenced = result["influenced"]["value"].split("/resource/")[1]
-		
-		G.add_edge(influenced, cs)
-	except:	print("",end="")
-
-""" Computing Pagerank """
-pr = nx.pagerank(G, alpha=0.85)
-sorted_pr = sorted(pr.items(), key=operator.itemgetter(1))
-sorted_pr.reverse()
-
-for i in sorted_pr:	print(i)
-\end{lstlisting}
 
 
 
@@ -475,7 +453,7 @@ def get_links(self, names, html):
 		value = listofHrefs[i][6:]
 		listofHrefTexts.append(value)
 
-	listofHrefTexts = re.findall(r'href="([^"]*)', html)
+	listofHrefTexts = re.findall(r"href="([^"]*)", html)
 
 	for i in listofHrefTexts:
 		value = i[6:]
@@ -606,7 +584,20 @@ The results obtained by the two algorithms are shown below:
 
 
 \newpage
+
+\section{Conclusions}
+The experiment consisted of applying the same procedure to computer scientists as described in the original document: the discrepancy between the rankings is minimal, especially if the list of the top twenty is taken into account (instead of just the list of the top ten). The complete rankings can be consulted on the Github page. One of the biggest difficulties in the experiment was polishing the data in order to provide reliable results. For this reason, the dataset obtained with DBpedia was not used in subsequent tests with custom HITS and PageRank. A larger number of datasets would have made the results of the experiment more interesting.
+\section{Contacts}
+Here is the GitHub link of our project: \href{https://github.com/LucaTomei/Computer_Scientists}{https://github.com/LucaTomei/Computer\_Scientists}
+
+
+\newpage
 \blankpage
+
+\newpage
+\listoffigures
+\lstlistoflistings
+\newpage
 
 \begin{thebibliography}{X} %My Bibliography
 \bibitem{SPARQLWrapper}	SPARQLWrapper: \href{https://pypi.org/project/SPARQLWrapper/}{https://pypi.org/project/SPARQLWrapper/}
@@ -623,9 +614,7 @@ The results obtained by the two algorithms are shown below:
 
 \end{thebibliography}
 
-\newpage
-\listoffigures
-\lstlistoflistings
+
 
 \end{document}
 
