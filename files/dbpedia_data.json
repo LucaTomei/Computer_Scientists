@@ -1,0 +1,1231 @@
+{
+    "head": {
+        "link": [],
+        "vars": [
+            "name",
+            "person",
+            "subject"
+        ]
+    },
+    "results": {
+        "distinct": false,
+        "ordered": true,
+        "bindings": [
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Afzal Upal"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Afzal_Upal"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Ahmed K. Elmagarmid"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Ahmed_K._Elmagarmid"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Alan Smeaton"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alan_Smeaton"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Alasdair Turner"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alasdair_Turner"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Alex Graves"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alex_Graves_(computer_scientist)"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Alexander L. Wolf"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Alexander_L._Wolf"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Anthony Oettinger"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Anthony_Oettinger"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Arvind Gupta"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Arvind_Gupta_(academic)"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Atta ur Rehman Khan"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Atta_ur_Rehman_Khan"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Barry Smith"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Barry_Smith_(academic)"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Benjamin Kunz Mejri"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Benjamin_Kunz_Mejri"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Bobby Schnabel"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Robert_B._Schnabel"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "C. K. Raut"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/C._K._Raut"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Carlos Osuna"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Carlos_Osuna"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Carlos Osuna Roffe"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Carlos_Osuna"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Cecilia Mascolo"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Cecilia_Mascolo"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Chih-Jen Lin"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Chih-Jen_Lin"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Craig Gotsman"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Craig_Gotsman"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Craig Silverstein"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Craig_Silverstein"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "David J. Malan"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/David_Malan_(computer_scientist)"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "David Malan"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/David_Malan_(computer_scientist)"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Dr. C. K. Raut"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/C._K._Raut"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Ernesto Damiani"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Ernesto_Damiani"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Fanya Montalvo"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Fanya_Montalvo"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Ge Wang"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Ge_Wang"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Howard Gobioff"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Howard_Gobioff"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Igor Jurisica"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Igor_Jurisica"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Ipke Wachsmuth"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Ipke_Wachsmuth"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Irwin Sobel"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Irwin_Sobel"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Jim Coplien"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Jim_Coplien"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Johan Bollen"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Johan_Bollen"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "John Leslie King"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/John_Leslie_King"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "John Mathieson"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/John_Mathieson_(computer_scientist)"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Joseph Glickauf"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Joseph_Glickauf"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Jos\u00e9 Luis Encarna\u00e7\u00e3o"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Jos\u00e9_Luis_Encarna\u00e7\u00e3o"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Kentaro Toyama"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Kentaro_Toyama"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Leon J. Osterweil"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Leon_J._Osterweil"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Leslie Blackett Wilson"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Leslie_Blackett_Wilson"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Linnar Viik"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Linnar_Viik"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Manuel da Silva Rosa"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Manuel_da_Silva_Rosa"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Markus Gro\u00df"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Markus_Gross"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Marlon Dumas"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Marlon_Dumas"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Matt Welsh"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Matt_Welsh_(computer_scientist)"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Michael S. Montalbano"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Michael_S._Montalbano"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Milan Vojnovic"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Milan_Vojnovic"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Milind Tambe"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Milind_Tambe"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Munindar P. Singh"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Munindar_P._Singh"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Nicola Pellow"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Nicola_Pellow"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Nicolai Petkov"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Nicolai_Petkov"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Partha Niyogi"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Partha_Niyogi"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Pedro Domingos"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pedro_Domingos"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Poornima Vijayashanker"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Poornima_Vijayashanker"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Prakash Panangaden"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Prakash_Panangaden"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Prof. Dr. Markus Gross"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Markus_Gross"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Pushmeet Kohli"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Pushmeet_Kohli"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Radhika Nagpal"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Radhika_Nagpal"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Ramesh Sitaraman"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Ramesh_Sitaraman"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Raphael Rom"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Raphael_Rom"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Reda Seireg"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Reda_Seireg"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Robert B. Schnabel"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Robert_B._Schnabel"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Robert Tomasulo"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Robert_Tomasulo"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Roman Yampolskiy"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Roman_Yampolskiy"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Ron Pinter"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Ron_Pinter"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Russell A. Brown"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Russell_A._Brown"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Sebastian Schaffert"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Sebastian_Schaffert"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Serafim Batzoglou"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Serafim_Batzoglou"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Stephen M. Watt"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Stephen_M._Watt"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Suranga Nanayakkara"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Suranga_Nanayakkara"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "T.H. Tse"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/T.H._Tse"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Tanel Tammet"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Tanel_Tammet"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Theodosios Pavlidis"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Theodosios_Pavlidis"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Thomas N. Hibbard"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Thomas_N._Hibbard"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Thorsten Altenkirch"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Thorsten_Altenkirch"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Timothy Jurka"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Timothy_Jurka"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Timothy Paul Jurka"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Timothy_Jurka"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Victor Vianu"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Victor_Vianu"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "William Bigelow Easton"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/William_Bigelow_Easton"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Wim Sweldens"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Wim_Sweldens"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Window Snyder"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Window_Snyder"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "Yi Mu"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Yi_Mu_(academic)"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            },
+            {
+                "name": {
+                    "type": "literal",
+                    "xml:lang": "en",
+                    "value": "\u0921\u093e. \u0938\u0940. \u0915\u0947. \u0930\u093e\u0909\u0924"
+                },
+                "person": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/C._K._Raut"
+                },
+                "subject": {
+                    "type": "uri",
+                    "value": "http://dbpedia.org/resource/Category:Computer_scientists"
+                }
+            }
+        ]
+    }
+}

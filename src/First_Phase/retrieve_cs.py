@@ -18,8 +18,7 @@ class RetrieveCS(object):
 			Find <a> tags like [ <li><a href='/wiki/' ]that are inside of A-Z headings.
 		"""
 		def tryparent(tag):
-		 	try:
-		 		return re.match('[A-Z]', tag.parent.parent.previous_sibling.previous_sibling.span.text)
+		 	try:	return re.match('[A-Z]', tag.parent.parent.previous_sibling.previous_sibling.span.text)
 		 	except:	False
 		return tag and tag.name == 'a' and tag.parent.name == 'li' and tag.get('href').startswith('/wiki/') and not tag.previous_sibling and tryparent(tag)
 
