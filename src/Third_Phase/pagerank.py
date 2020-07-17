@@ -2,10 +2,12 @@ from bs4 import BeautifulSoup
 from sortedcontainers import SortedList, SortedSet, SortedDict
 from collections import Counter
 from collections import defaultdict
-import glob, os, re, requests
+import glob, os, re, requests, tarfile, sys, time, operator
 from urllib.request import urlretrieve
-import tarfile
 
+import networkx as nx
+import matplotlib.pyplot as plt
+from matplotlib import pylab
 
 class Page_Rank(object):
 	def __init__(self):
@@ -15,6 +17,9 @@ class Page_Rank(object):
 		self.dropbox_data_tar = 'https://www.dropbox.com/s/ut477x665aobz7e/data.tar.gz?dl=0'
 		self.dropbox_headers = {'user-agent': 'Wget/1.16 (linux-gnu)'}
 		self.this_dir = os.getcwd()
+		self.pagerank_temp_file = 'tmp.txt'
+		self.normal_pagerank_file = self.file_folder_dir + 'normal_pagerank.txt'
+		self.normal_hits_file = self.file_folder_dir + 'normal_hits.txt'
 
 	def write_tar_file(self, response_content):
 		tar_file_name = 'data.tar.gz'
@@ -24,6 +29,8 @@ class Page_Rank(object):
 		tar = tarfile.open(tar_file_name)
 		tar.extractall()
 		tar.close()
+		print("Extracting all pages")
+		time.sleep(10)
 
 
 	"""	def compute_pagerank(self, urls, inlinks, outlinks, b=.85, iters=20)
@@ -188,25 +195,77 @@ class Page_Rank(object):
 		for tupla in list_of_tuples:	file.write(str(tupla) + '\n')
 		file.close()
 
+	def write_txt_file(self, file_name, content):
+		file = open(file_name, 'w')
+		file.write(content)
+		file.close()
 
-	def draw_graph(self, outlinks):
+	def write_pagerank_tmp_file(self, outlinks):
 		to_write = ""
 		for item in outlinks:
 			if outlinks[item] ==  SortedSet([]):	pass
 			else:
 				for out in outlinks[item]:	to_write += item + ',' + out + '\n'
 
-		temp_file = 'tmp.txt'
-		file = open(temp_file, 'w')
+		file = open(self.pagerank_temp_file, 'w')
 		file.write(to_write)
 		file.close()
 
-		file = open(temp_file, 'r')
-		import networkx as nx
-		import matplotlib.pyplot as plt
-		import operator
-		from matplotlib import pylab
+	def compute_normal_pagerank(self):
+		G = nx.DiGraph()
+		file = open(self.pagerank_temp_file, 'r')
+		for line in file:
+			l = line.split(",")
+			influences = l[0].split("\n")[0]
+			inflienced = l[1].split("\n")[0]
+			G.add_edge(influences, inflienced)
 
+		pr = nx.pagerank(G, alpha=0.85)
+		sorted_pr = sorted(pr.items(), key=operator.itemgetter(1))
+		sorted_pr.reverse()
+
+		counter = 0
+		to_write = ''
+		for i in sorted_pr:
+			#print(i)
+			to_write = to_write + str(i) + '\n'
+			if counter == 20:	break
+			counter += 1
+		self.write_txt_file(self.normal_pagerank_file, to_write)
+
+	def compute_hits(self):
+		G = nx.DiGraph()
+		file = open(self.pagerank_temp_file, 'r')
+		for line in file:
+			l = line.split(",")
+			influenced = l[0].split("\n")[0]
+			category = l[1].split("\n")[0]
+			G.add_edge(influenced, category)
+
+		pr = nx.hits(G)
+		p1 = pr[0]
+		sorted_p1 = sorted(p1.items(), key=operator.itemgetter(1))
+		sorted_p1.reverse()
+
+		p2 = pr[1]
+		sorted_p2 = sorted(p2.items(), key=operator.itemgetter(1))
+		sorted_p2.reverse()
+
+		counter = 0
+		to_write = ''
+		for i in sorted_p2:
+			#print(i)
+			to_write = to_write + str(i) + '\n'
+			if counter == 20:	break
+			counter += 1
+
+		self.write_txt_file(self.normal_hits_file, to_write)
+
+
+	def draw_graph(self, outlinks):
+		self.write_pagerank_tmp_file(outlinks)
+		file = open(self.pagerank_temp_file, 'r')
+		
 		G = nx.DiGraph()
 
 		for line in file:
@@ -234,32 +293,49 @@ class Page_Rank(object):
 
 		graph_name = self.file_folder_dir + "my_graph.pdf"
 		save_graph(G,graph_name)
-		os.remove(temp_file)
+		os.remove(self.pagerank_temp_file)
 
 	
 	def main(self):
-		if not os.path.exists(self.folder_data_name):
-			print("Downloading wikipedia CS Pages")
-			os.chdir(self.file_folder_dir)
-			response = requests.get(self.dropbox_data_tar, stream=True, headers=self.dropbox_headers)
-			response_content = response.content
-			self.write_tar_file(response_content)
+		print("Which type of pagerank do you want to call?\n[1 - Personalized Pagerank, 2 - networkx PageRank and Hits]")
+		command = input()
+		if str(command) == '1':
+			if not os.path.exists(self.folder_data_name):
+				print("Downloading wikipedia CS Pages")
+				os.chdir(self.file_folder_dir)
+				response = requests.get(self.dropbox_data_tar, stream=True, headers=self.dropbox_headers)
+				response_content = response.content
+				self.write_tar_file(response_content)
 
-		print('Before calling make_links')
-		(inlinks, outlinks) = self.make_links(self.folder_data_name)
-		print(outlinks)
-		print('Read %d people with a total of %d inlinks' % (len(inlinks), sum(len(v) for v in inlinks.values())))
-		print('Read %d people with a total of %d outlinks' % (len(outlinks), sum(len(v) for v in outlinks.values())))
+			print('Before calling make_links')
+			(inlinks, outlinks) = self.make_links(self.folder_data_name)
+			
+			print('Read %d people with a total of %d inlinks' % (len(inlinks), sum(len(v) for v in inlinks.values())))
+			print('Read %d people with a total of %d outlinks' % (len(outlinks), sum(len(v) for v in outlinks.values())))
 
 
-		topn = self.get_top_pageranks(inlinks, outlinks, b=.8, n=20, iters=10)
+			topn = self.get_top_pageranks(inlinks, outlinks, b=.8, n=20, iters=10)
 
-		self.tabular_print_pagerank(topn)
+			self.tabular_print_pagerank(topn)
 
-		# print("I'm drawing directed graph")
-		# self.draw_graph(outlinks)
+			# print("I'm drawing directed graph")
+			#self.draw_graph(outlinks)
 
-		os.chdir(self.this_dir)
+			os.chdir(self.this_dir)
+		elif str(command) == '2':
+			os.system("clear")
+			print("I'm making links between Computer Scientists")
+			(inlinks, outlinks) = self.make_links(self.folder_data_name)
+			self.write_pagerank_tmp_file(outlinks)
+			print("I'm computing Pagerank and Hits")
+			self.compute_normal_pagerank()
+			self.compute_hits()
+
+			if os.path.exists(self.pagerank_temp_file):	os.remove(self.pagerank_temp_file)
+			os.chdir(self.this_dir)
+		else:
+			print('The choice made is incorrect.')
+			sys.exit(1)
 
 
 
