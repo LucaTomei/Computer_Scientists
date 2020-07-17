@@ -85,6 +85,6 @@ Now you can run any python file you find in one of the 5 folders.
 | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
 |Luca Tomei| <p align="center">[✅](https://www.linkedin.com/in/luca-tomei-760296ab/)</p>| <p align="center">[✅](https://github.com/LucaTomei/)</p>| <p align="center">[✅](https://twitter.com/LucaTomei1995)</p>| <p align="center">[✅](https://twitter.com/LucaTomei1995)</p>| <p align="center">[✅](https://lucatomei.github.io)</p>|
 |Andrea Aurizi| <p align="center">[✅](https://www.linkedin.com/in/andrea-aurizi-66a1351a6/)</p>|  <p align="center">[✅](https://www.linkedin.com/in/andrea-aurizi-66a1351a6/)</p>|  <p align="center">[✅](https://www.linkedin.com/in/andrea-aurizi-66a1351a6/)</p>|  <p align="center">[✅](https://www.linkedin.com/in/andrea-aurizi-66a1351a6/)</p>|  <p align="center">[⬜️]()</p>| 
-|Daniele Iacomini| <p align="center">[✅](https://www.linkedin.com/in/daniele-iacomini-12a93819a/)</p>| <p align="center">[✅](https://github.com/DanieleIacomini)</p>| <p align="center">[⬜️]</p>| <p align="center">[⬜️]</p>| <p align="center">[⬜️]()</p>| 
+|Daniele Iacomini| <p align="center">[✅](https://www.linkedin.com/in/daniele-iacomini-12a93819a/)</p>| <p align="center">[✅](https://github.com/DanieleIacomini)</p>| <p align="center">[⬜️]()</p>| <p align="center">[⬜️]()</p>| <p align="center">[⬜️]()</p>| 
 
 
